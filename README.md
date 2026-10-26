@@ -13,6 +13,9 @@
 | --- | --- |
 | [**shush**](https://github.com/celaldrg/shush) | Cuts the noise from command output before it reaches your AI agent: passing tests, progress bars, install logs. Errors always kept, full output one call away. MCP server + CLI for any agent. |
 | [**turkiye-mcp**](https://github.com/celaldrg/turkiye-mcp) | MCP server that gives AI agents Türkiye-specific tools: official TCMB exchange rates, AFAD/Kandilli earthquakes, holidays and business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. |
+| [**todoage**](https://github.com/celaldrg/todoage) | How old are your TODOs? Finds TODO/FIXME/HACK comments and uses `git blame` to show who wrote each one and how long ago, with a CI gate for stale ones. Rust. |
+| [**certpeek**](https://github.com/celaldrg/certpeek) | Checks TLS certificates for one host or hundreds: expiry, hostname, trust chain, TLS version. JSON output and exit codes for cron/CI. Single Go binary. |
+| [**envguard**](https://github.com/celaldrg/envguard) | Linter for `.env` files: syntax errors, duplicates, keys missing from `.env.example`, and real secrets committed by mistake. Zero-dependency Python, pre-commit hook. |
 | [**awesome-turkiye-dev**](https://github.com/celaldrg/awesome-turkiye-dev) | A curated list of resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, learning, podcasts, events and jobs. |
 
 ### 🔭 What I'm focused on
