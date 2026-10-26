@@ -11,6 +11,7 @@
 
 | Project | What it is |
 | --- | --- |
+| [**turkiye-mcp**](https://github.com/celaldrg/turkiye-mcp) | MCP server that gives AI agents Türkiye-specific tools: official TCMB exchange rates, AFAD/Kandilli earthquakes, holidays and business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. |
 | [**awesome-turkiye-dev**](https://github.com/celaldrg/awesome-turkiye-dev) | A curated list of resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, learning, podcasts, events and jobs. |
 
 ### 🔭 What I'm focused on
