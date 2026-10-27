@@ -44,6 +44,18 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Breakout**](https://github.com/celaldrg/breakout) | [▶ play](https://celaldrg.github.io/breakout/) | Brick breaker with 3 levels, multi-ball and other power-ups, tunnel-free collisions. |
 | [**Snake**](https://github.com/celaldrg/snake) | [▶ play](https://celaldrg.github.io/snake/) | Four speed levels, walls or wrap mode, swipe controls and an on-screen D-pad. |
 | [**Tic-Tac-Toe**](https://github.com/celaldrg/tic-tac-toe) | [▶ play](https://celaldrg.github.io/tic-tac-toe/) | Unbeatable minimax AI, proven by an exhaustive test over every possible game. |
+| [**Reversi**](https://github.com/celaldrg/reversi) | [▶ play](https://celaldrg.github.io/reversi/) | Rules checked against perft counts, a 3-level engine in a Web Worker with a perfect endgame solve, 3D disc flips. |
+| [**Mangala**](https://github.com/celaldrg/mangala) | [▶ play](https://celaldrg.github.io/mangala/) | The traditional Turkish mancala game with its real capture rules and a 3-level alpha-beta opponent. |
+| [**Four in a Row**](https://github.com/celaldrg/four-in-a-row) | [▶ play](https://celaldrg.github.io/four-in-a-row/) | Negamax with alpha-beta, a transposition table and iterative deepening, running in a Web Worker. |
+
+### Algorithm visualizers
+
+Built the same way: vanilla JavaScript, no build step, logic covered by `node --test` unit tests.
+
+| Tool | Live | What it shows |
+| --- | --- | --- |
+| [**Sorting Visualizer**](https://github.com/celaldrg/sorting-visualizer) | [▶ open](https://celaldrg.github.io/sorting-visualizer/) | Ten sorting algorithms step by step, with live counters, narration and complexity notes. |
+| [**Pathfinding Visualizer**](https://github.com/celaldrg/pathfinding-visualizer) | [▶ open](https://celaldrg.github.io/pathfinding-visualizer/) | A*, Dijkstra, BFS, greedy search and DFS on a grid you draw, plus two maze generators. |
 
 ### What I work on
 
