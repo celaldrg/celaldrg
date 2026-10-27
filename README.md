@@ -27,6 +27,23 @@
 
 Every project is MIT-licensed, has CI on every push, and ships with real example output in its README.
 
+### Browser games
+
+Small games that run in any browser, phone included. Vanilla JavaScript, no build step, game logic covered by `node --test` unit tests.
+
+| Game | Live | What it is |
+| --- | --- | --- |
+| [**Chess**](https://github.com/celaldrg/chess-web) | [▶ play](https://celaldrg.github.io/chess-web/) | Full rules (castling, en passant, promotion, threefold, fifty-move) and an alpha-beta engine with 3 levels. PGN export. |
+| [**Sapan**](https://github.com/celaldrg/sapan) | [▶ play](https://celaldrg.github.io/sapan/) | Physics slingshot game on Matter.js: 5 levels of crumbling castles, stars and level select. |
+| [**Sudoku**](https://github.com/celaldrg/sudoku) | [▶ play](https://celaldrg.github.io/sudoku/) | Generator that guarantees a unique solution, solver, notes, hints and 3 difficulties. |
+| [**2048**](https://github.com/celaldrg/2048) | [▶ play](https://celaldrg.github.io/2048/) | Sliding-tile puzzle with animations, multi-step undo and saved games. |
+| [**Scientific Calculator**](https://github.com/celaldrg/calculator) | [▶ play](https://celaldrg.github.io/calculator/) | Own expression parser (no eval): functions, DEG/RAD, factorial, implicit multiplication, history. |
+| [**Minesweeper**](https://github.com/celaldrg/minesweeper) | [▶ play](https://celaldrg.github.io/minesweeper/) | Three difficulties, safe first click, flags, chording and long-press on mobile. |
+| [**Kanat**](https://github.com/celaldrg/kanat) | [▶ play](https://celaldrg.github.io/kanat/) | One-tap flying game with original art, rising difficulty and saved high score. |
+| [**Breakout**](https://github.com/celaldrg/breakout) | [▶ play](https://celaldrg.github.io/breakout/) | Brick breaker with 3 levels, multi-ball and other power-ups, tunnel-free collisions. |
+| [**Snake**](https://github.com/celaldrg/snake) | [▶ play](https://celaldrg.github.io/snake/) | Four speed levels, walls or wrap mode, swipe controls and an on-screen D-pad. |
+| [**Tic-Tac-Toe**](https://github.com/celaldrg/tic-tac-toe) | [▶ play](https://celaldrg.github.io/tic-tac-toe/) | Unbeatable minimax AI, proven by an exhaustive test over every possible game. |
+
 ### What I work on
 
 - **Tools for AI agents:** MCP servers that give agents better context with less noise
@@ -39,6 +56,7 @@ Every project is MIT-licensed, has CI on every push, and ships with real example
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
