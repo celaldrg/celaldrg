@@ -53,6 +53,9 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Memory**](https://github.com/celaldrg/memory) | [▶ play](https://celaldrg.github.io/memory/) | Card-matching game: three board sizes, solo or two players on one device, 18 original SVG symbols and 3D flips. |
 | [**Maze**](https://github.com/celaldrg/maze) | [▶ play](https://celaldrg.github.io/maze/) | Perfect mazes from three generators (backtracker, Prim, Kruskal with union-find), five levels and a BFS solution path. |
 | [**15 Puzzle**](https://github.com/celaldrg/15-puzzle) | [▶ play](https://celaldrg.github.io/15-puzzle/) | Sliding puzzle from 3×3 to 5×5: every shuffle is solvable, IDA* hints on 3×3 and a picture mode. |
+| [**Tavla**](https://github.com/celaldrg/tavla) | [▶ play](https://celaldrg.github.io/tavla/) | Turkish backgammon against the computer (two levels) or a friend: bar entry, hitting, doubles, bearing off and mars. |
+| [**Dama**](https://github.com/celaldrg/dama) | [▶ play](https://celaldrg.github.io/dama/) | Turkish draughts with flying kings and forced maximum captures, and an alpha-beta opponent in a Web Worker. |
+| [**Adam Asmaca**](https://github.com/celaldrg/adam-asmaca) | [▶ play](https://celaldrg.github.io/adam-asmaca/) | Hangman with English and Turkish word lists that knows ı from i, an animated SVG drawing, hints and streaks. |
 
 ### Visualizers, simulations and tools
 
@@ -64,6 +67,8 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Pathfinding Visualizer**](https://github.com/celaldrg/pathfinding-visualizer) | [▶ open](https://celaldrg.github.io/pathfinding-visualizer/) | A*, Dijkstra, BFS, greedy search and DFS on a grid you draw, plus two maze generators. |
 | [**Game of Life**](https://github.com/celaldrg/game-of-life) | [▶ open](https://celaldrg.github.io/game-of-life/) | Conway's Life on a canvas you draw on: zoom and pan, B/S rule presets such as HighLife and Day & Night, eight classic patterns. |
 | [**Typing Test**](https://github.com/celaldrg/typing-test) | [▶ open](https://celaldrg.github.io/typing-test/) | Typing speed test with English and Turkish word lists: WPM, accuracy, consistency and a per-second chart. |
+| [**Pixel Art Editor**](https://github.com/celaldrg/pixel-art) | [▶ open](https://celaldrg.github.io/pixel-art/) | Pixel sprites with mouse, pen or touch: fill, line, rectangle, mirror drawing, undo and PNG export up to 16×. |
+| [**Focus Timer**](https://github.com/celaldrg/focus-timer) | [▶ open](https://celaldrg.github.io/focus-timer/) | Focus sessions with short and long breaks, drift-free timing, a task list with estimates and a 7-day chart. |
 
 ### What I work on
 
