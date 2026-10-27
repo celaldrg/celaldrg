@@ -16,6 +16,7 @@
 
 | Project | Language | What it does |
 | --- | --- | --- |
+| [**aiblame**](https://github.com/celaldrg/aiblame) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | How much of this repo did AI write? `git blame` for the agent era: the share of today's code written with Claude Code, Cursor, Copilot, Codex, Aider, Devin and 9 more. Works on any GitHub repo, SVG card + badge, CI gate. Zero dependencies. |
 | [**shush**](https://github.com/celaldrg/shush) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Compresses noisy command output (test runs, installs, builds) before it reaches an AI agent. Errors are always kept. ~69% fewer tokens on a real benchmark. MCP server + CLI. |
 | [**turkiye-mcp**](https://github.com/celaldrg/turkiye-mcp) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | MCP server with 17 Türkiye-specific tools: TCMB exchange rates, earthquakes, holidays and business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. |
 | [**lockdiff**](https://github.com/celaldrg/lockdiff) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Readable diffs for lockfiles: upgraded, downgraded, added and removed packages with major bumps first. 10 formats (npm, pnpm, yarn, Cargo, Go, Poetry, uv, ...), Markdown for PR comments. |
