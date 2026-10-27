@@ -47,15 +47,20 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Reversi**](https://github.com/celaldrg/reversi) | [▶ play](https://celaldrg.github.io/reversi/) | Rules checked against perft counts, a 3-level engine in a Web Worker with a perfect endgame solve, 3D disc flips. |
 | [**Mangala**](https://github.com/celaldrg/mangala) | [▶ play](https://celaldrg.github.io/mangala/) | The traditional Turkish mancala game with its real capture rules and a 3-level alpha-beta opponent. |
 | [**Four in a Row**](https://github.com/celaldrg/four-in-a-row) | [▶ play](https://celaldrg.github.io/four-in-a-row/) | Negamax with alpha-beta, a transposition table and iterative deepening, running in a Web Worker. |
+| [**Memory**](https://github.com/celaldrg/memory) | [▶ play](https://celaldrg.github.io/memory/) | Card-matching game: three board sizes, solo or two players on one device, 18 original SVG symbols and 3D flips. |
+| [**Maze**](https://github.com/celaldrg/maze) | [▶ play](https://celaldrg.github.io/maze/) | Perfect mazes from three generators (backtracker, Prim, Kruskal with union-find), five levels and a BFS solution path. |
+| [**15 Puzzle**](https://github.com/celaldrg/15-puzzle) | [▶ play](https://celaldrg.github.io/15-puzzle/) | Sliding puzzle from 3×3 to 5×5: every shuffle is solvable, IDA* hints on 3×3 and a picture mode. |
 
-### Algorithm visualizers
+### Visualizers, simulations and tools
 
 Built the same way: vanilla JavaScript, no build step, logic covered by `node --test` unit tests.
 
-| Tool | Live | What it shows |
+| Tool | Live | What it is |
 | --- | --- | --- |
 | [**Sorting Visualizer**](https://github.com/celaldrg/sorting-visualizer) | [▶ open](https://celaldrg.github.io/sorting-visualizer/) | Ten sorting algorithms step by step, with live counters, narration and complexity notes. |
 | [**Pathfinding Visualizer**](https://github.com/celaldrg/pathfinding-visualizer) | [▶ open](https://celaldrg.github.io/pathfinding-visualizer/) | A*, Dijkstra, BFS, greedy search and DFS on a grid you draw, plus two maze generators. |
+| [**Game of Life**](https://github.com/celaldrg/game-of-life) | [▶ open](https://celaldrg.github.io/game-of-life/) | Conway's Life on a canvas you draw on: zoom and pan, B/S rule presets such as HighLife and Day & Night, eight classic patterns. |
+| [**Typing Test**](https://github.com/celaldrg/typing-test) | [▶ open](https://celaldrg.github.io/typing-test/) | Typing speed test with English and Turkish word lists: WPM, accuracy, consistency and a per-second chart. |
 
 ### What I work on
 
