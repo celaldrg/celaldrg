@@ -56,6 +56,10 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Tavla**](https://github.com/celaldrg/tavla) | [▶ play](https://celaldrg.github.io/tavla/) | Turkish backgammon against the computer (two levels) or a friend: bar entry, hitting, doubles, bearing off and mars. |
 | [**Dama**](https://github.com/celaldrg/dama) | [▶ play](https://celaldrg.github.io/dama/) | Turkish draughts with flying kings and forced maximum captures, and an alpha-beta opponent in a Web Worker. |
 | [**Adam Asmaca**](https://github.com/celaldrg/adam-asmaca) | [▶ play](https://celaldrg.github.io/adam-asmaca/) | Hangman with English and Turkish word lists that knows ı from i, an animated SVG drawing, hints and streaks. |
+| [**Dokuz Taş**](https://github.com/celaldrg/dokuz-tas) | [▶ play](https://celaldrg.github.io/dokuz-tas/) | Nine men's morris with placing, moving and flying phases, a three-level computer opponent and drag, tap or keys. |
+| [**Gomoku**](https://github.com/celaldrg/gomoku) | [▶ play](https://celaldrg.github.io/gomoku/) | Five in a row on a wooden 15×15 board: freestyle or exactly-five rule, alpha-beta AI with three levels in a Web Worker. |
+| [**Pişti**](https://github.com/celaldrg/pisti) | [▶ play](https://celaldrg.github.io/pisti/) | The classic Turkish card game against the computer: piştis, full scoring with a round summary, matches to 51, 101 or 151. |
+| [**Space Shooter**](https://github.com/celaldrg/space-shooter) | [▶ play](https://celaldrg.github.io/space-shooter/) | Vertical arcade shooter: ten scripted waves, a three-phase boss, a blaster plus three weapons that level up. |
 
 ### Visualizers, simulations and tools
 
@@ -74,6 +78,7 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Kanban Board**](https://github.com/celaldrg/kanban) | [▶ open](https://celaldrg.github.io/kanban/) | A private Kanban board: drag and drop for mouse, touch and keyboard, WIP limits, filters and undo/redo. |
 | [**Color Palette Generator**](https://github.com/celaldrg/color-palette) | [▶ open](https://celaldrg.github.io/color-palette/) | Harmonious palettes in OKLCH with locks, WCAG contrast checks, 50–950 shade scales and CSS, JSON or Tailwind export. |
 | [**Markdown Editor**](https://github.com/celaldrg/markdown-editor) | [▶ open](https://celaldrg.github.io/markdown-editor/) | Live-preview Markdown with its own parser: synced scrolling, code highlighting, a table of contents and .md/.html export. |
+| [**QR Code Generator**](https://github.com/celaldrg/qr-generator) | [▶ open](https://celaldrg.github.io/qr-generator/) | QR codes encoded from scratch with Reed–Solomon error correction: links, Wi-Fi, e-mail, SMS and vCards, PNG or SVG. |
 
 ### What I work on
 
