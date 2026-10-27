@@ -69,6 +69,11 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Typing Test**](https://github.com/celaldrg/typing-test) | [▶ open](https://celaldrg.github.io/typing-test/) | Typing speed test with English and Turkish word lists: WPM, accuracy, consistency and a per-second chart. |
 | [**Pixel Art Editor**](https://github.com/celaldrg/pixel-art) | [▶ open](https://celaldrg.github.io/pixel-art/) | Pixel sprites with mouse, pen or touch: fill, line, rectangle, mirror drawing, undo and PNG export up to 16×. |
 | [**Focus Timer**](https://github.com/celaldrg/focus-timer) | [▶ open](https://celaldrg.github.io/focus-timer/) | Focus sessions with short and long breaks, drift-free timing, a task list with estimates and a 7-day chart. |
+| [**Drum Machine**](https://github.com/celaldrg/drum-machine) | [▶ open](https://celaldrg.github.io/drum-machine/) | An 8-track, 16-step drum machine with synthesized drums, swing, patterns A–D, a song chain and share links. |
+| [**Web Piano**](https://github.com/celaldrg/piano) | [▶ open](https://celaldrg.github.io/piano/) | A piano for touch and keyboard: four synth sounds, sustain, a recorder that keeps 8 takes and a Learn mode. |
+| [**Kanban Board**](https://github.com/celaldrg/kanban) | [▶ open](https://celaldrg.github.io/kanban/) | A private Kanban board: drag and drop for mouse, touch and keyboard, WIP limits, filters and undo/redo. |
+| [**Color Palette Generator**](https://github.com/celaldrg/color-palette) | [▶ open](https://celaldrg.github.io/color-palette/) | Harmonious palettes in OKLCH with locks, WCAG contrast checks, 50–950 shade scales and CSS, JSON or Tailwind export. |
+| [**Markdown Editor**](https://github.com/celaldrg/markdown-editor) | [▶ open](https://celaldrg.github.io/markdown-editor/) | Live-preview Markdown with its own parser: synced scrolling, code highlighting, a table of contents and .md/.html export. |
 
 ### What I work on
 
