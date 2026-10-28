@@ -65,6 +65,8 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Bulls and Cows**](https://github.com/celaldrg/bulls-and-cows) | [▶ play](https://celaldrg.github.io/bulls-and-cows/) | Crack the secret number, or let a minimax solver crack yours (any 4-digit one in at most 7 guesses); 3 to 5 digits, notes and answer checking. |
 | [**Amiral Battı**](https://github.com/celaldrg/amiral-batti) | [▶ play](https://celaldrg.github.io/amiral-batti/) | Sea battle against the computer: drag five ships onto your sea, three AI levels, optional salvo and touching-ship rules, saved battles. |
 | [**Solitaire**](https://github.com/celaldrg/solitaire) | [▶ play](https://celaldrg.github.io/solitaire/) | Klondike with Draw 1 or 3, numbered deals, a solver that can deal only winnable games, unlimited undo, hints and auto-complete. |
+| [**Dots and Boxes**](https://github.com/celaldrg/dots-and-boxes) | [▶ play](https://celaldrg.github.io/dots-and-boxes/) | 3×3 to 7×7 boards against a friend or a computer whose Hard level counts chains, plays the long-chain rule and double-deals. |
+| [**Batak**](https://github.com/celaldrg/batak) | [▶ play](https://celaldrg.github.io/batak/) | The Turkish trick-taking game with bidding, against three computer players that bid, pick trumps and remember the cards played. |
 
 ### Visualizers, simulations and tools
 
@@ -89,6 +91,9 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**JSON Formatter**](https://github.com/celaldrg/json-formatter) | [▶ open](https://celaldrg.github.io/json-formatter/) | Exact line and column errors, 20-digit numbers kept as written, a relaxed mode that repairs, a fast tree with JSONPath queries, and a diff. |
 | [**Loan Calculator**](https://github.com/celaldrg/loan-calculator) | [▶ open](https://celaldrg.github.io/loan-calculator/) | Equal installments or equal principal with tax, fees, grace months and extra payments; schedule, chart, two offers and an affordability solver. |
 | [**Regex Tester**](https://github.com/celaldrg/regex-tester) | [▶ open](https://celaldrg.github.io/regex-tester/) | Live highlighting with colored named groups, a plain-language explanation of every token, replace and split previews, shareable links. |
+| [**Function Plotter**](https://github.com/celaldrg/function-plotter) | [▶ open](https://celaldrg.github.io/function-plotter/) | Its own parser, up to six functions with sliders, symbolic derivatives, roots, extrema, intersections and shaded integrals. |
+| [**Fractal Explorer**](https://github.com/celaldrg/fractal-explorer) | [▶ open](https://celaldrg.github.io/fractal-explorer/) | Mandelbrot, Julia, Burning Ship, Tricorn and Multibrot, rendered progressively on Web Workers, with a live Julia picker. |
+| [**Text Diff**](https://github.com/celaldrg/text-diff) | [▶ open](https://celaldrg.github.io/text-diff/) | Line, word and character diffs with a linear-space Myers algorithm, a side-by-side view, unified patches and a patch applier. |
 
 ### What I work on
 
