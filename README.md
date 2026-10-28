@@ -60,6 +60,11 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Gomoku**](https://github.com/celaldrg/gomoku) | [▶ play](https://celaldrg.github.io/gomoku/) | Five in a row on a wooden 15×15 board: freestyle or exactly-five rule, alpha-beta AI with three levels in a Web Worker. |
 | [**Pişti**](https://github.com/celaldrg/pisti) | [▶ play](https://celaldrg.github.io/pisti/) | The classic Turkish card game against the computer: piştis, full scoring with a round summary, matches to 51, 101 or 151. |
 | [**Space Shooter**](https://github.com/celaldrg/space-shooter) | [▶ play](https://celaldrg.github.io/space-shooter/) | Vertical arcade shooter: ten scripted waves, a three-phase boss, a blaster plus three weapons that level up. |
+| [**Word Search**](https://github.com/celaldrg/word-search) | [▶ play](https://celaldrg.github.io/word-search/) | 20 categories in English and Turkish, three sizes up to 15×15 in all 8 directions, every word hidden exactly once; drag, tap or keys. |
+| [**Nonogram**](https://github.com/celaldrg/nonogram) | [▶ play](https://celaldrg.github.io/nonogram/) | Paint-by-numbers logic puzzles: 20 hand-made pictures up to 15×15 and endless random ones, each with exactly one solution and no guessing. |
+| [**Bulls and Cows**](https://github.com/celaldrg/bulls-and-cows) | [▶ play](https://celaldrg.github.io/bulls-and-cows/) | Crack the secret number, or let a minimax solver crack yours (any 4-digit one in at most 7 guesses); 3 to 5 digits, notes and answer checking. |
+| [**Amiral Battı**](https://github.com/celaldrg/amiral-batti) | [▶ play](https://celaldrg.github.io/amiral-batti/) | Sea battle against the computer: drag five ships onto your sea, three AI levels, optional salvo and touching-ship rules, saved battles. |
+| [**Solitaire**](https://github.com/celaldrg/solitaire) | [▶ play](https://celaldrg.github.io/solitaire/) | Klondike with Draw 1 or 3, numbered deals, a solver that can deal only winnable games, unlimited undo, hints and auto-complete. |
 
 ### Visualizers, simulations and tools
 
