@@ -67,6 +67,9 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Solitaire**](https://github.com/celaldrg/solitaire) | [▶ play](https://celaldrg.github.io/solitaire/) | Klondike with Draw 1 or 3, numbered deals, a solver that can deal only winnable games, unlimited undo, hints and auto-complete. |
 | [**Dots and Boxes**](https://github.com/celaldrg/dots-and-boxes) | [▶ play](https://celaldrg.github.io/dots-and-boxes/) | 3×3 to 7×7 boards against a friend or a computer whose Hard level counts chains, plays the long-chain rule and double-deals. |
 | [**Batak**](https://github.com/celaldrg/batak) | [▶ play](https://celaldrg.github.io/batak/) | The Turkish trick-taking game with bidding, against three computer players that bid, pick trumps and remember the cards played. |
+| [**Okey**](https://github.com/celaldrg/okey) | [▶ play](https://celaldrg.github.io/okey/) | The Turkish tile game against three computer players that read the discards, with a draggable two-row rack, seven pairs and false jokers. |
+| [**Air Hockey**](https://github.com/celaldrg/air-hockey) | [▶ play](https://celaldrg.github.io/air-hockey/) | Neon air hockey with swept collisions, a computer opponent on three levels that predicts wall bounces, and two players on one screen. |
+| [**Go**](https://github.com/celaldrg/go-game) | [▶ play](https://celaldrg.github.io/go-game/) | Go on 9x9, 13x13 and 19x19 with superko, handicap, area scoring and a Monte Carlo tree search computer player in a Web Worker. |
 
 ### Visualizers, simulations and tools
 
@@ -94,6 +97,8 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Function Plotter**](https://github.com/celaldrg/function-plotter) | [▶ open](https://celaldrg.github.io/function-plotter/) | Its own parser, up to six functions with sliders, symbolic derivatives, roots, extrema, intersections and shaded integrals. |
 | [**Fractal Explorer**](https://github.com/celaldrg/fractal-explorer) | [▶ open](https://celaldrg.github.io/fractal-explorer/) | Mandelbrot, Julia, Burning Ship, Tricorn and Multibrot, rendered progressively on Web Workers, with a live Julia picker. |
 | [**Text Diff**](https://github.com/celaldrg/text-diff) | [▶ open](https://celaldrg.github.io/text-diff/) | Line, word and character diffs with a linear-space Myers algorithm, a side-by-side view, unified patches and a patch applier. |
+| [**Mini Sheet**](https://github.com/celaldrg/mini-sheet) | [▶ open](https://celaldrg.github.io/mini-sheet/) | A small spreadsheet with its own formula parser (no eval), 25 functions, a dependency graph, undo/redo and CSV import and export. |
+| [**Fourier Drawing**](https://github.com/celaldrg/fourier-drawing) | [▶ open](https://celaldrg.github.io/fourier-drawing/) | Draw any closed shape and watch a chain of rotating circles trace it, computed with an FFT; choose the number of terms and export SVG. |
 
 ### What I work on
 
