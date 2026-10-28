@@ -84,6 +84,11 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Color Palette Generator**](https://github.com/celaldrg/color-palette) | [▶ open](https://celaldrg.github.io/color-palette/) | Harmonious palettes in OKLCH with locks, WCAG contrast checks, 50–950 shade scales and CSS, JSON or Tailwind export. |
 | [**Markdown Editor**](https://github.com/celaldrg/markdown-editor) | [▶ open](https://celaldrg.github.io/markdown-editor/) | Live-preview Markdown with its own parser: synced scrolling, code highlighting, a table of contents and .md/.html export. |
 | [**QR Code Generator**](https://github.com/celaldrg/qr-generator) | [▶ open](https://celaldrg.github.io/qr-generator/) | QR codes encoded from scratch with Reed–Solomon error correction: links, Wi-Fi, e-mail, SMS and vCards, PNG or SVG. |
+| [**Unit Converter**](https://github.com/celaldrg/unit-converter) | [▶ open](https://celaldrg.github.io/unit-converter/) | 136 units in 14 categories with exact definitions; type “5 ft 3 in to cm”, see every unit at once, keep favorites. |
+| [**Password Generator**](https://github.com/celaldrg/password-generator) | [▶ open](https://celaldrg.github.io/password-generator/) | Unbiased passwords and English or Turkish passphrases, an honest strength meter with crack times, and a checker for your own password. |
+| [**JSON Formatter**](https://github.com/celaldrg/json-formatter) | [▶ open](https://celaldrg.github.io/json-formatter/) | Exact line and column errors, 20-digit numbers kept as written, a relaxed mode that repairs, a fast tree with JSONPath queries, and a diff. |
+| [**Loan Calculator**](https://github.com/celaldrg/loan-calculator) | [▶ open](https://celaldrg.github.io/loan-calculator/) | Equal installments or equal principal with tax, fees, grace months and extra payments; schedule, chart, two offers and an affordability solver. |
+| [**Regex Tester**](https://github.com/celaldrg/regex-tester) | [▶ open](https://celaldrg.github.io/regex-tester/) | Live highlighting with colored named groups, a plain-language explanation of every token, replace and split previews, shareable links. |
 
 ### What I work on
 
