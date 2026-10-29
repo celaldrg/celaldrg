@@ -1,7 +1,7 @@
 <h1 align="center">Celalettin Durğaç</h1>
 
 <p align="center">
-  Computer engineer in Ankara, Türkiye. I build small, sharp developer tools:<br/>
+  Computer programmer and IT specialist from Türkiye. I build small, sharp developer tools:<br/>
   MCP servers for AI agents and CLIs that catch problems before they ship.
 </p>
 
@@ -133,4 +133,4 @@ Issues and pull requests are welcome on any of these projects. Issues labeled
 [`good first issue`](https://github.com/search?q=user%3Acelaldrg+label%3A%22good+first+issue%22+state%3Aopen&type=issues)
 are a good place to start.
 
-<p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar · Ankara</sub></p>
+<p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar</sub></p>
