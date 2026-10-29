@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://celaldrg.github.io"><img src="https://img.shields.io/badge/portfolio-celaldrg.github.io-111?style=flat-square" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/celaldrg/"><img src="https://img.shields.io/badge/LinkedIn-celaldrg-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://github.com/celaldrg?tab=repositories"><img src="https://img.shields.io/badge/open%20source-MIT-111?style=flat-square" alt="Open source, MIT"/></a>
 </p>
 
