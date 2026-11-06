@@ -1,19 +1,51 @@
-<h1 align="center">Celalettin Durğaç</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pass-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pass-light.svg">
+  <img src="assets/pass-light.svg" width="100%" alt="A wide proof page. The left side is a dense block of lines and a shorter block sits beside it. A large black C-clamp grips the right of the page, and its screw comes down on a line broken by a small amber mark. A short discarded strip of lines lies off the lower left corner. The same drawing is on a pale ground in light mode and a deep ground in dark mode.">
+</picture>
 
-<p align="center">
-  Computer programmer and IT specialist from Türkiye. I build small, sharp developer tools:<br/>
-  MCP servers for AI agents and CLIs that catch problems before they ship.
-</p>
+# Celalettin Durğaç
 
-<p align="center">
-  <a href="https://celaldrg.github.io"><img src="https://img.shields.io/badge/portfolio-celaldrg.github.io-111?style=flat-square" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/celaldrg/"><img src="https://img.shields.io/badge/LinkedIn-celaldrg-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/celaldrg?tab=repositories"><img src="https://img.shields.io/badge/open%20source-MIT-111?style=flat-square" alt="Open source, MIT"/></a>
-</p>
+Computer Programmer & IT Specialist · Monrovia, Liberia
 
----
+I build small, sharp developer tools: MCP servers for AI agents and CLIs that catch problems before they ship.
+
+[celaldrg.github.io](https://celaldrg.github.io) · [LinkedIn](https://www.linkedin.com/in/celaldrg/) · [Repositories](https://github.com/celaldrg?tab=repositories)
+
+### What an agent reads
+
+**[shush](https://github.com/celaldrg/shush)** compresses noisy command output before an agent reads it. Errors are kept.
+
+**[tokmap](https://github.com/celaldrg/tokmap)** maps where a repository's tokens sit, file by file, and can fail a build that exceeds a budget.
+
+**[mcptax](https://github.com/celaldrg/mcptax)** estimates what each tool in `tools/list` costs in the context window: missing or bloated descriptions, deep schemas, huge enums.
+
+**[toolrank](https://github.com/celaldrg/toolrank)** ranks those tools for a plain-language task from the name, description and schema, without calling a model, and can keep only what fits.
+
+### What should fail the check
+
+**[mcpdiff](https://github.com/celaldrg/mcpdiff)** diffs two `tools/list` snapshots and fails when a tool is removed or a required parameter, type or enum changes.
+
+**[invisigrep](https://github.com/celaldrg/invisigrep)** finds invisible Unicode in rules files and code, including bidi overrides and tag characters, and decodes the hidden text.
+
+**[skillcheck](https://github.com/celaldrg/skillcheck)** checks Agent Skills: the name and description rules, strict frontmatter with line numbers, and broken file links.
+
+**[llmslint](https://github.com/celaldrg/llmslint)** checks an `llms.txt` file, a URL or a whole domain: structure, links, and the size of the Optional section.
+
+### What the history shows
+
+**[aiblame](https://github.com/celaldrg/aiblame)** measures how much of the current tree was written with Claude Code, Cursor, Copilot, Codex and the other agents it recognizes.
+
+**[aichurn](https://github.com/celaldrg/aichurn)** asks whether AI-assisted lines are rewritten sooner, replaying git history for churn, copies and moves.
+
+**[agentprs](https://github.com/celaldrg/agentprs)** compares those agents' pull requests with human ones: share, merge rate and time to merge.
 
 ### Featured projects
+
+The Türkiye data server, the Turkish text kit, the other command-line tools and the curated list are in this table too.
+
+<details>
+<summary>Complete list of featured projects</summary>
 
 | Project | Language | What it does |
 | --- | --- | --- |
@@ -36,12 +68,22 @@
 | [**mcptax**](https://github.com/celaldrg/mcptax) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | What your MCP server costs an agent's context window: per-tool token estimates from `tools/list` (saved or live stdio), warnings for missing, duplicate or bloated descriptions, deep schemas and huge enums, and a `--budget` CI gate. Zero dependencies. |
 | [**toolrank**](https://github.com/celaldrg/toolrank) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Rank MCP `tools/list` tools for a natural-language task with name/description/schema heuristics (no LLM): top-N scores, token estimates, and a `-budget` mode to keep only what fits. Zero-dependency Go CLI. |
 | [**awesome-turkiye-dev**](https://github.com/celaldrg/awesome-turkiye-dev) | ![Markdown](https://img.shields.io/badge/-Curated%20list-555?style=flat-square&logo=markdown&logoColor=white) | Curated resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, events and jobs. |
+</details>
 
 Every project is MIT-licensed, has CI on every push, and ships with real example output in its README.
+
+### Stack
+
+**Languages** &nbsp;`TypeScript` `Go` `Rust` `Python` `JavaScript`
+
+**Tooling** &nbsp;`Node.js` `GitHub Actions` `Linux` `Git`
 
 ### Browser games
 
 Small games that run in any browser, phone included. Vanilla JavaScript, no build step, game logic covered by `node --test` unit tests.
+
+<details>
+<summary>Show the browser games</summary>
 
 | Game | Live | What it is |
 | --- | --- | --- |
@@ -78,10 +120,14 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Okey**](https://github.com/celaldrg/okey) | [▶ play](https://celaldrg.github.io/okey/) | The Turkish tile game against three computer players that read the discards, with a draggable two-row rack, seven pairs and false jokers. |
 | [**Air Hockey**](https://github.com/celaldrg/air-hockey) | [▶ play](https://celaldrg.github.io/air-hockey/) | Neon air hockey with swept collisions, a computer opponent on three levels that predicts wall bounces, and two players on one screen. |
 | [**Go**](https://github.com/celaldrg/go-game) | [▶ play](https://celaldrg.github.io/go-game/) | Go on 9x9, 13x13 and 19x19 with superko, handicap, area scoring and a Monte Carlo tree search computer player in a Web Worker. |
+</details>
 
 ### Visualizers, simulations and tools
 
 Built the same way: vanilla JavaScript, no build step, logic covered by `node --test` unit tests.
+
+<details>
+<summary>Show the visualizers, simulations and tools</summary>
 
 | Tool | Live | What it is |
 | --- | --- | --- |
@@ -107,31 +153,7 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Text Diff**](https://github.com/celaldrg/text-diff) | [▶ open](https://celaldrg.github.io/text-diff/) | Line, word and character diffs with a linear-space Myers algorithm, a side-by-side view, unified patches and a patch applier. |
 | [**Mini Sheet**](https://github.com/celaldrg/mini-sheet) | [▶ open](https://celaldrg.github.io/mini-sheet/) | A small spreadsheet with its own formula parser (no eval), 25 functions, a dependency graph, undo/redo and CSV import and export. |
 | [**Fourier Drawing**](https://github.com/celaldrg/fourier-drawing) | [▶ open](https://celaldrg.github.io/fourier-drawing/) | Draw any closed shape and watch a chain of rotating circles trace it, computed with an FFT; choose the number of terms and export SVG. |
-
-### What I work on
-
-- **Tools for AI agents:** MCP servers that give agents better context with less noise
-- **Developer tooling:** small single-binary CLIs that fit into CI, cron and pre-commit
-- **Turkish developer ecosystem:** open data, local APIs and curated resources
-
-### Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-### Activity
-
-<p>
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=celaldrg&show_icons=true&hide_border=true&hide_rank=true&count_private=false" alt="GitHub stats" />
-  <img height="150" src="https://streak-stats.demolab.com/?user=celaldrg&hide_border=true" alt="GitHub streak" />
-</p>
+</details>
 
 ### Contributing
 
