@@ -1,17 +1,41 @@
-<h1 align="center">Celalettin Durğaç</h1>
+<!--
+  github.com/celaldrg — profile README.
+  Fig. 1 is an original bench gauge stored in assets/.
+  Light and dark SVGs are swapped with the picture element.
+  Words in the figure are repeated as text under it.
+-->
 
 <p align="center">
-  Computer programmer and IT specialist from Türkiye. I build small, sharp developer tools:<br/>
-  MCP servers for AI agents and CLIs that catch problems before they ship.
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/gauge-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/gauge-light.svg">
+    <img src="assets/gauge-light.svg" width="100%" alt="Fig. 1, a bench gauge. The same plate is drawn twice: aluminum gray for light mode and charcoal for dark mode. A double hairline frames it. Large lettering reads Celalettin Durğaç, then Computer Programmer and IT Specialist, then Monrovia, Liberia. The top corners read Fig. 1 and celaldrg. Along the bottom is a calibration scale with four stations labeled TS, GO, RS, and PY. A single amber lamp sits at the start of the scale.">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://celaldrg.github.io"><img src="https://img.shields.io/badge/portfolio-celaldrg.github.io-111?style=flat-square" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/celaldrg/"><img src="https://img.shields.io/badge/LinkedIn-celaldrg-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/celaldrg?tab=repositories"><img src="https://img.shields.io/badge/open%20source-MIT-111?style=flat-square" alt="Open source, MIT"/></a>
+  <b>Celalettin Durğaç</b><br>
+  Computer Programmer &amp; IT Specialist · Monrovia, Liberia<br>
+  <b>Fig. 1 — Bench gauge.</b> The marks on the scale are TypeScript, Go, Rust, and Python.
 </p>
 
----
+<p align="center">
+  <a href="https://celaldrg.github.io">celaldrg.github.io</a>
+  &#8287;·&#8287;
+  <a href="https://www.linkedin.com/in/celaldrg/">LinkedIn</a>
+  &#8287;·&#8287;
+  <a href="https://github.com/celaldrg?tab=repositories">Repositories</a>
+</p>
+
+I build small, sharp developer tools: MCP servers for AI agents and CLIs that catch problems before they ship.
+
+<p align="center">
+  <a href="#featured-projects">Featured projects</a>
+  &#8287;·&#8287;
+  <a href="#browser-games">Browser games</a>
+  &#8287;·&#8287;
+  <a href="#visualizers-simulations-and-tools">Visualizers and tools</a>
+</p>
 
 ### Featured projects
 
@@ -39,9 +63,24 @@
 
 Every project is MIT-licensed, has CI on every push, and ships with real example output in its README.
 
+### What I work on
+
+- **Tools for AI agents:** MCP servers that give agents better context with less noise
+- **Developer tooling:** small single-binary CLIs that fit into CI, cron and pre-commit
+- **Turkish developer ecosystem:** open data, local APIs and curated resources
+
+### Stack
+
+**Languages** &nbsp;`TypeScript` `Go` `Rust` `Python` `JavaScript`
+
+**Tooling** &nbsp;`Node.js` `GitHub Actions` `Linux` `Git`
+
 ### Browser games
 
 Small games that run in any browser, phone included. Vanilla JavaScript, no build step, game logic covered by `node --test` unit tests.
+
+<details>
+<summary>Show the browser games</summary>
 
 | Game | Live | What it is |
 | --- | --- | --- |
@@ -79,9 +118,14 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Air Hockey**](https://github.com/celaldrg/air-hockey) | [▶ play](https://celaldrg.github.io/air-hockey/) | Neon air hockey with swept collisions, a computer opponent on three levels that predicts wall bounces, and two players on one screen. |
 | [**Go**](https://github.com/celaldrg/go-game) | [▶ play](https://celaldrg.github.io/go-game/) | Go on 9x9, 13x13 and 19x19 with superko, handicap, area scoring and a Monte Carlo tree search computer player in a Web Worker. |
 
+</details>
+
 ### Visualizers, simulations and tools
 
 Built the same way: vanilla JavaScript, no build step, logic covered by `node --test` unit tests.
+
+<details>
+<summary>Show the visualizers, simulations and tools</summary>
 
 | Tool | Live | What it is |
 | --- | --- | --- |
@@ -108,30 +152,7 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Mini Sheet**](https://github.com/celaldrg/mini-sheet) | [▶ open](https://celaldrg.github.io/mini-sheet/) | A small spreadsheet with its own formula parser (no eval), 25 functions, a dependency graph, undo/redo and CSV import and export. |
 | [**Fourier Drawing**](https://github.com/celaldrg/fourier-drawing) | [▶ open](https://celaldrg.github.io/fourier-drawing/) | Draw any closed shape and watch a chain of rotating circles trace it, computed with an FFT; choose the number of terms and export SVG. |
 
-### What I work on
-
-- **Tools for AI agents:** MCP servers that give agents better context with less noise
-- **Developer tooling:** small single-binary CLIs that fit into CI, cron and pre-commit
-- **Turkish developer ecosystem:** open data, local APIs and curated resources
-
-### Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-### Activity
-
-<p>
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=celaldrg&show_icons=true&hide_border=true&hide_rank=true&count_private=false" alt="GitHub stats" />
-  <img height="150" src="https://streak-stats.demolab.com/?user=celaldrg&hide_border=true" alt="GitHub streak" />
-</p>
+</details>
 
 ### Contributing
 
@@ -141,3 +162,8 @@ are a good place to start.
 
 <p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar</sub></p>
 
+### Notes
+
+Fig. 1 was set for this profile and is stored in this repo: `assets/gauge-light.svg` for light mode and `assets/gauge-dark.svg` for dark mode. GitHub swaps them with the `picture` element. The lettering is outlined, so it does not depend on fonts installed on the machine reading it. The same words are written again under the figure, because type inside an image is hard to read on a phone and is not a substitute for text.
+
+This page does not load a badge service, a streak image, or a readme-stats image.
