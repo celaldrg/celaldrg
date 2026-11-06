@@ -34,6 +34,7 @@
 | [**invisigrep**](https://github.com/celaldrg/invisigrep) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Find invisible Unicode (zero-width, bidi overrides, tag-character ASCII smuggling) that hides prompt injections in `AGENTS.md`, rules files and code, and decode the hidden text. Zero-dependency CLI with CI exit codes. |
 | [**mcpdiff**](https://github.com/celaldrg/mcpdiff) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Catch breaking changes in MCP server tool schemas: diff two `tools/list` snapshots (removed tools, new required params, type and enum changes) and fail CI. Zero-dependency CLI. |
 | [**mcptax**](https://github.com/celaldrg/mcptax) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | What your MCP server costs an agent's context window: per-tool token estimates from `tools/list` (saved or live stdio), warnings for missing, duplicate or bloated descriptions, deep schemas and huge enums, and a `--budget` CI gate. Zero dependencies. |
+| [**toolrank**](https://github.com/celaldrg/toolrank) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Rank MCP `tools/list` tools for a natural-language task with name/description/schema heuristics (no LLM): top-N scores, token estimates, and a `-budget` mode to keep only what fits. Zero-dependency Go CLI. |
 | [**awesome-turkiye-dev**](https://github.com/celaldrg/awesome-turkiye-dev) | ![Markdown](https://img.shields.io/badge/-Curated%20list-555?style=flat-square&logo=markdown&logoColor=white) | Curated resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, events and jobs. |
 
 Every project is MIT-licensed, has CI on every push, and ships with real example output in its README.
@@ -139,3 +140,4 @@ Issues and pull requests are welcome on any of these projects. Issues labeled
 are a good place to start.
 
 <p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar</sub></p>
+
