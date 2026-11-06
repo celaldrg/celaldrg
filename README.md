@@ -1,43 +1,51 @@
-<!--
-  github.com/celaldrg — profile README.
-  Fig. 1 is an original bench gauge stored in assets/.
-  Light and dark SVGs are swapped with the picture element.
-  Words in the figure are repeated as text under it.
--->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pass-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pass-light.svg">
+  <img src="assets/pass-light.svg" width="100%" alt="A wide proof page. The left side is a dense block of lines and a shorter block sits beside it. A large black C-clamp grips the right of the page, and its screw comes down on a line broken by a small amber mark. A short discarded strip of lines lies off the lower left corner. The same drawing is on a pale ground in light mode and a deep ground in dark mode.">
+</picture>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/gauge-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/gauge-light.svg">
-    <img src="assets/gauge-light.svg" width="100%" alt="Fig. 1, a bench gauge. The same plate is drawn twice: aluminum gray for light mode and charcoal for dark mode. A double hairline frames it. Large lettering reads Celalettin Durğaç, then Computer Programmer and IT Specialist, then Monrovia, Liberia. The top corners read Fig. 1 and celaldrg. Along the bottom is a calibration scale with four stations labeled TS, GO, RS, and PY. A single amber lamp sits at the start of the scale.">
-  </picture>
-</p>
+# Celalettin Durğaç
 
-<p align="center">
-  <b>Celalettin Durğaç</b><br>
-  Computer Programmer &amp; IT Specialist · Monrovia, Liberia<br>
-  <b>Fig. 1 — Bench gauge.</b> The marks on the scale are TypeScript, Go, Rust, and Python.
-</p>
-
-<p align="center">
-  <a href="https://celaldrg.github.io">celaldrg.github.io</a>
-  &#8287;·&#8287;
-  <a href="https://www.linkedin.com/in/celaldrg/">LinkedIn</a>
-  &#8287;·&#8287;
-  <a href="https://github.com/celaldrg?tab=repositories">Repositories</a>
-</p>
+Computer Programmer & IT Specialist · Monrovia, Liberia
 
 I build small, sharp developer tools: MCP servers for AI agents and CLIs that catch problems before they ship.
 
-<p align="center">
-  <a href="#featured-projects">Featured projects</a>
-  &#8287;·&#8287;
-  <a href="#browser-games">Browser games</a>
-  &#8287;·&#8287;
-  <a href="#visualizers-simulations-and-tools">Visualizers and tools</a>
-</p>
+[celaldrg.github.io](https://celaldrg.github.io) · [LinkedIn](https://www.linkedin.com/in/celaldrg/) · [Repositories](https://github.com/celaldrg?tab=repositories)
+
+### What an agent reads
+
+**[shush](https://github.com/celaldrg/shush)** compresses noisy command output before an agent reads it. Errors are kept.
+
+**[tokmap](https://github.com/celaldrg/tokmap)** maps where a repository's tokens sit, file by file, and can fail a build that exceeds a budget.
+
+**[mcptax](https://github.com/celaldrg/mcptax)** estimates what each tool in `tools/list` costs in the context window: missing or bloated descriptions, deep schemas, huge enums.
+
+**[toolrank](https://github.com/celaldrg/toolrank)** ranks those tools for a plain-language task from the name, description and schema, without calling a model, and can keep only what fits.
+
+### What should fail the check
+
+**[mcpdiff](https://github.com/celaldrg/mcpdiff)** diffs two `tools/list` snapshots and fails when a tool is removed or a required parameter, type or enum changes.
+
+**[invisigrep](https://github.com/celaldrg/invisigrep)** finds invisible Unicode in rules files and code, including bidi overrides and tag characters, and decodes the hidden text.
+
+**[skillcheck](https://github.com/celaldrg/skillcheck)** checks Agent Skills: the name and description rules, strict frontmatter with line numbers, and broken file links.
+
+**[llmslint](https://github.com/celaldrg/llmslint)** checks an `llms.txt` file, a URL or a whole domain: structure, links, and the size of the Optional section.
+
+### What the history shows
+
+**[aiblame](https://github.com/celaldrg/aiblame)** measures how much of the current tree was written with Claude Code, Cursor, Copilot, Codex and the other agents it recognizes.
+
+**[aichurn](https://github.com/celaldrg/aichurn)** asks whether AI-assisted lines are rewritten sooner, replaying git history for churn, copies and moves.
+
+**[agentprs](https://github.com/celaldrg/agentprs)** compares those agents' pull requests with human ones: share, merge rate and time to merge.
 
 ### Featured projects
+
+The Türkiye data server, the Turkish text kit, the other command-line tools and the curated list are in this table too.
+
+<details>
+<summary>Complete list of featured projects</summary>
 
 | Project | Language | What it does |
 | --- | --- | --- |
@@ -60,14 +68,9 @@ I build small, sharp developer tools: MCP servers for AI agents and CLIs that ca
 | [**mcptax**](https://github.com/celaldrg/mcptax) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | What your MCP server costs an agent's context window: per-tool token estimates from `tools/list` (saved or live stdio), warnings for missing, duplicate or bloated descriptions, deep schemas and huge enums, and a `--budget` CI gate. Zero dependencies. |
 | [**toolrank**](https://github.com/celaldrg/toolrank) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Rank MCP `tools/list` tools for a natural-language task with name/description/schema heuristics (no LLM): top-N scores, token estimates, and a `-budget` mode to keep only what fits. Zero-dependency Go CLI. |
 | [**awesome-turkiye-dev**](https://github.com/celaldrg/awesome-turkiye-dev) | ![Markdown](https://img.shields.io/badge/-Curated%20list-555?style=flat-square&logo=markdown&logoColor=white) | Curated resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, events and jobs. |
+</details>
 
 Every project is MIT-licensed, has CI on every push, and ships with real example output in its README.
-
-### What I work on
-
-- **Tools for AI agents:** MCP servers that give agents better context with less noise
-- **Developer tooling:** small single-binary CLIs that fit into CI, cron and pre-commit
-- **Turkish developer ecosystem:** open data, local APIs and curated resources
 
 ### Stack
 
@@ -117,7 +120,6 @@ Small games that run in any browser, phone included. Vanilla JavaScript, no buil
 | [**Okey**](https://github.com/celaldrg/okey) | [▶ play](https://celaldrg.github.io/okey/) | The Turkish tile game against three computer players that read the discards, with a draggable two-row rack, seven pairs and false jokers. |
 | [**Air Hockey**](https://github.com/celaldrg/air-hockey) | [▶ play](https://celaldrg.github.io/air-hockey/) | Neon air hockey with swept collisions, a computer opponent on three levels that predicts wall bounces, and two players on one screen. |
 | [**Go**](https://github.com/celaldrg/go-game) | [▶ play](https://celaldrg.github.io/go-game/) | Go on 9x9, 13x13 and 19x19 with superko, handicap, area scoring and a Monte Carlo tree search computer player in a Web Worker. |
-
 </details>
 
 ### Visualizers, simulations and tools
@@ -151,7 +153,6 @@ Built the same way: vanilla JavaScript, no build step, logic covered by `node --
 | [**Text Diff**](https://github.com/celaldrg/text-diff) | [▶ open](https://celaldrg.github.io/text-diff/) | Line, word and character diffs with a linear-space Myers algorithm, a side-by-side view, unified patches and a patch applier. |
 | [**Mini Sheet**](https://github.com/celaldrg/mini-sheet) | [▶ open](https://celaldrg.github.io/mini-sheet/) | A small spreadsheet with its own formula parser (no eval), 25 functions, a dependency graph, undo/redo and CSV import and export. |
 | [**Fourier Drawing**](https://github.com/celaldrg/fourier-drawing) | [▶ open](https://celaldrg.github.io/fourier-drawing/) | Draw any closed shape and watch a chain of rotating circles trace it, computed with an FFT; choose the number of terms and export SVG. |
-
 </details>
 
 ### Contributing
@@ -162,8 +163,3 @@ are a good place to start.
 
 <p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar</sub></p>
 
-### Notes
-
-Fig. 1 was set for this profile and is stored in this repo: `assets/gauge-light.svg` for light mode and `assets/gauge-dark.svg` for dark mode. GitHub swaps them with the `picture` element. The lettering is outlined, so it does not depend on fonts installed on the machine reading it. The same words are written again under the figure, because type inside an image is hard to read on a phone and is not a substitute for text.
-
-This page does not load a badge service, a streak image, or a readme-stats image.

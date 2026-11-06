@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="680" viewBox="0 0 1280 680" role="img">
+  <title>A proof page held by a C-clamp. The left of the page is dense lines. Under the screw, one line is interrupted by an amber mark. A short discarded strip lies beside the page.</title>
+  <rect width="1280" height="680" fill="#0E151C"/>
+  
+      <ellipse cx="130" cy="628" rx="78" ry="8" fill="rgba(0,0,0,0.45)"/>
+      <g transform="translate(46 548) rotate(-7 72 34)">
+        <rect x="0" y="0" width="150" height="72" fill="#F7F8F7" stroke="#1A212B" stroke-width="2"/>
+        <g transform="translate(10,8)"><rect x="0" y="0" width="118" height="5" fill="#1A212B"/><rect x="0" y="11" width="96" height="5" fill="#1A212B"/><rect x="0" y="22" width="124" height="5" fill="#1A212B"/><rect x="0" y="33" width="80" height="5" fill="#1A212B"/><rect x="0" y="44" width="110" height="5" fill="#1A212B"/><rect x="0" y="55" width="70" height="5" fill="#1A212B"/></g>
+      </g>
+    
+  
+      <rect x="118" y="132" width="860" height="430" fill="#C3CCD4"/>
+      <rect x="104" y="118" width="860" height="430" fill="#C3CCD4" opacity="0.65"/>
+      <rect x="86" y="100" width="860" height="430" fill="#F7F8F7" stroke="#1A212B" stroke-width="2.5"/>
+    
+  <rect x="122" y="136" width="340" height="5" fill="#1A212B"/>
+<rect x="122" y="148" width="318" height="5" fill="#1A212B"/>
+<rect x="122" y="160" width="352" height="5" fill="#1A212B"/>
+<rect x="122" y="172" width="290" height="5" fill="#1A212B"/>
+<rect x="122" y="184" width="334" height="5" fill="#1A212B"/>
+<rect x="122" y="196" width="308" height="5" fill="#1A212B"/>
+<rect x="122" y="208" width="346" height="5" fill="#1A212B"/>
+<rect x="122" y="220" width="260" height="5" fill="#1A212B"/>
+<rect x="122" y="232" width="328" height="5" fill="#1A212B"/>
+<rect x="122" y="244" width="300" height="5" fill="#1A212B"/>
+<rect x="122" y="256" width="338" height="5" fill="#1A212B"/>
+<rect x="122" y="268" width="274" height="5" fill="#1A212B"/>
+<rect x="122" y="280" width="322" height="5" fill="#1A212B"/>
+<rect x="122" y="292" width="348" height="5" fill="#1A212B"/>
+<rect x="122" y="304" width="286" height="5" fill="#1A212B"/>
+<rect x="122" y="316" width="310" height="5" fill="#1A212B"/>
+<rect x="122" y="328" width="336" height="5" fill="#1A212B"/>
+<rect x="122" y="340" width="250" height="5" fill="#1A212B"/>
+<rect x="122" y="352" width="330" height="5" fill="#1A212B"/>
+<rect x="122" y="364" width="292" height="5" fill="#1A212B"/>
+<rect x="122" y="376" width="318" height="5" fill="#1A212B"/>
+<rect x="122" y="388" width="270" height="5" fill="#1A212B"/>
+<rect x="122" y="400" width="340" height="5" fill="#1A212B"/>
+<rect x="122" y="412" width="304" height="5" fill="#1A212B"/>
+<rect x="122" y="424" width="286" height="5" fill="#1A212B"/>
+<rect x="122" y="436" width="322" height="5" fill="#1A212B"/>
+  <rect x="500" y="148" width="180" height="5" fill="#1A212B"/>
+<rect x="500" y="160" width="156" height="5" fill="#1A212B"/>
+<rect x="500" y="172" width="174" height="5" fill="#1A212B"/>
+<rect x="500" y="184" width="140" height="5" fill="#1A212B"/>
+<rect x="500" y="196" width="168" height="5" fill="#1A212B"/>
+<rect x="500" y="208" width="150" height="5" fill="#1A212B"/>
+<rect x="500" y="220" width="176" height="5" fill="#1A212B"/>
+<rect x="500" y="232" width="132" height="5" fill="#1A212B"/>
+<rect x="500" y="244" width="164" height="5" fill="#1A212B"/>
+<rect x="500" y="256" width="148" height="5" fill="#1A212B"/>
+<rect x="500" y="268" width="170" height="5" fill="#1A212B"/>
+<rect x="500" y="280" width="136" height="5" fill="#1A212B"/>
+<rect x="500" y="292" width="158" height="5" fill="#1A212B"/>
+<rect x="500" y="304" width="144" height="5" fill="#1A212B"/>
+<rect x="500" y="316" width="172" height="5" fill="#1A212B"/>
+<rect x="500" y="328" width="128" height="5" fill="#1A212B"/>
+<rect x="500" y="340" width="160" height="5" fill="#1A212B"/>
+<rect x="500" y="352" width="150" height="5" fill="#1A212B"/>
+  <rect x="748" y="300" width="150" height="6" fill="#1A212B"/>
+<rect x="748" y="328" width="120" height="6" fill="#1A212B"/>
+<rect x="748" y="456" width="136" height="6" fill="#1A212B"/>
+<rect x="748" y="484" width="96" height="6" fill="#1A212B"/>
+      <rect x="748" y="412" width="48" height="6" fill="#1A212B"/>
+      <rect x="852" y="412" width="46" height="6" fill="#1A212B"/>
+      <rect x="808" y="404" width="32" height="22" fill="#E36A1E"/>
+    
+  <g transform="translate(-150 0)">
+    <ellipse cx="1013" cy="402" rx="54" ry="7" fill="rgba(0,0,0,0.45)"/>
+    
+      <path fill="#1A212B" d="
+        M 868 118
+        H 1088
+        Q 1188 118 1188 218
+        V 470
+        Q 1188 570 1088 570
+        H 900
+        Q 812 570 812 486
+        V 438
+        H 1048
+        Q 1104 438 1104 392
+        V 250
+        Q 1104 204 1048 204
+        H 868
+        Z"/>
+    
+      <rect x="1002" y="150" width="22" height="214" fill="#1A212B"/>
+      <circle cx="1013" cy="128" r="30" fill="#1A212B"/>
+      <rect x="996" y="125" width="34" height="6" fill="#F7F8F7"/>
+      <rect x="968" y="358" width="90" height="16" rx="3" fill="#1A212B"/>
+      <rect x="992" y="350" width="42" height="14" fill="#1A212B"/>
+    <circle cx="1136" cy="344" r="11" fill="#F7F8F7"/>
+  </g>
+</svg>
