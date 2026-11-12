@@ -1,77 +1,134 @@
-<h1 align="center">Celalettin Durğaç</h1>
-
 <p align="center">
-  Computer programmer and IT specialist from Türkiye. I build small, sharp developer tools:<br/>
-  MCP servers for AI agents and CLIs that catch problems before they ship.
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/frontispiece-dark.webp" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/frontispiece-light.webp" />
+    <img src="assets/frontispiece-light.webp" width="100%" alt="Plate I, The Observatory. An engraving of an engineer's observatory workshop: a long wooden bench holds a cable switchboard, a clockwork core with a glowing teal orb wired to every instrument, a seismograph drum, a magnifier and brass gauges, under tall arched windows and a domed telescope. Lettered: Celalettin Durğaç. Instruments for AI agents: MCP servers, context linters and small, sharp CLIs. TypeScript, Go, Rust, Python." />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://celaldrg.github.io"><img src="https://img.shields.io/badge/portfolio-celaldrg.github.io-111?style=flat-square" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/celaldrg/"><img src="https://img.shields.io/badge/LinkedIn-celaldrg-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/celaldrg?tab=repositories"><img src="https://img.shields.io/badge/open%20source-MIT-111?style=flat-square" alt="Open source, MIT"/></a>
+  <b>Celalettin Durğaç</b> · computer programmer and IT specialist<br/>
+  <sub><i>Plate I: The Observatory.</i> Instruments for AI agents: MCP servers, context linters and small, sharp CLIs.</sub>
+</p>
+
+<p align="center">
+  <a href="https://celaldrg.github.io">celaldrg.github.io</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/celaldrg/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/celaldrg?tab=repositories">All repositories</a>
+</p>
+
+<p align="center">
+  <sub><b>Plates</b> &nbsp;
+  <a href="#ii-the-switchboard">II. The Switchboard</a> ·
+  <a href="#iii-the-proofreaders-desk">III. The Proofreader's Desk</a> ·
+  <a href="#iv-the-seismograph">IV. The Seismograph</a> ·
+  <a href="#v-the-tool-roll">V. The Tool Roll</a></sub>
 </p>
 
 ---
 
-### Featured projects
+I'm a computer programmer and IT specialist from Türkiye. I build small, sharp developer tools:
+MCP servers for AI agents and CLIs that catch problems before they ship. An agent is only as good
+as what it is wired to and what it reads every turn, so most of my tools sit at those two seams:
+the MCP servers and configs that give an agent its hands, and the instruction files that give it
+its context. The rest measure what agents actually do to a codebase, plus the everyday CLIs I
+reach for myself. Each one is a single binary or a zero-dependency package, with CI on every push
+and real example output in its README.
 
-| Project | Language | What it does |
-| --- | --- | --- |
-| [**aichurn**](https://github.com/celaldrg/aichurn) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | Does AI-written code get rewritten faster? Replays git history line by line: two-week churn, copy/paste and moved code, split by AI-assisted vs human commits. Ran on 13 popular repos. Single binary. |
-| [**agentprs**](https://github.com/celaldrg/agentprs) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | How do AI agents' pull requests fare in your repo? Share, merge rate and time to merge for Copilot, Claude Code, Codex, Cursor, Devin, Jules and 8 more, next to human PRs. GitHub Action, SVG card + badge. |
-| [**aiblame**](https://github.com/celaldrg/aiblame) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | How much of this repo did AI write? `git blame` for the agent era: the share of today's code written with Claude Code, Cursor, Copilot, Codex, Aider, Devin and 9 more. Works on any GitHub repo, SVG card + badge, CI gate. Zero dependencies. |
-| [**shush**](https://github.com/celaldrg/shush) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Compresses noisy command output (test runs, installs, builds) before it reaches an AI agent. Errors are always kept. ~69% fewer tokens on a real benchmark. MCP server + CLI. |
-| [**turkiye-mcp**](https://github.com/celaldrg/turkiye-mcp) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | MCP server with 17 Türkiye-specific tools: TCMB exchange rates, earthquakes, holidays and business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. |
-| [**lockdiff**](https://github.com/celaldrg/lockdiff) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Readable diffs for lockfiles: upgraded, downgraded, added and removed packages with major bumps first. 10 formats (npm, pnpm, yarn, Cargo, Go, Poetry, uv, ...), Markdown for PR comments. |
-| [**csvglance**](https://github.com/celaldrg/csvglance) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Profiles a CSV in one streaming pass: types, missing values, distinct counts (HyperLogLog), ranges and top values per column. Detects delimiters, gzip, decimal commas. ~1 s per million rows. |
-| [**todoage**](https://github.com/celaldrg/todoage) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | How old are your TODOs? Uses `git blame` to show who wrote each TODO/FIXME and when, oldest first, with a CI gate for stale ones. |
-| [**certpeek**](https://github.com/celaldrg/certpeek) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Checks TLS certificates for one host or hundreds: expiry, hostname, trust chain, TLS version. JSON output and exit codes for cron/CI. |
-| [**envguard**](https://github.com/celaldrg/envguard) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Linter for `.env` files: syntax errors, duplicates, keys missing from `.env.example`, and real secrets committed by mistake. pre-commit hook included. |
-| [**turkcekit**](https://github.com/celaldrg/turkcekit) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Turkish text done right in Python: correct `İ/ı` casing, URL slugs, Turkish alphabetical sorting, numbers and lira amounts in words, `1.234,50 ₺` formatting. Zero dependencies, CLI included. |
-| [**llmslint**](https://github.com/celaldrg/llmslint) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Linter for `llms.txt`, the file that points AI agents at your docs: structure, link format, relative and dead URLs, size of the `Optional` section. Works on a file, URL or whole domain; JSON and CI modes. |
-| [**skillcheck**](https://github.com/celaldrg/skillcheck) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Linter for Agent Skills, the `SKILL.md` folders that Claude Code, Codex, Cursor and Copilot load on demand: name and description rules, strict frontmatter with line numbers, broken file links, context-size warnings. Zero dependencies; JSON and GitHub annotation output. |
-| [**tokmap**](https://github.com/celaldrg/tokmap) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | See where your repo's tokens go before an AI agent reads it: a token budget map of files and folders, flags lockfiles, minified bundles, generated code and snapshots, and a `--budget` CI check. Single binary, zero dependencies. |
-| [**invisigrep**](https://github.com/celaldrg/invisigrep) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Find invisible Unicode (zero-width, bidi overrides, tag-character ASCII smuggling) that hides prompt injections in `AGENTS.md`, rules files and code, and decode the hidden text. Zero-dependency CLI with CI exit codes. |
-| [**mcpdiff**](https://github.com/celaldrg/mcpdiff) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Catch breaking changes in MCP server tool schemas: diff two `tools/list` snapshots (removed tools, new required params, type and enum changes) and fail CI. Zero-dependency CLI. |
-| [**mcptax**](https://github.com/celaldrg/mcptax) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | What your MCP server costs an agent's context window: per-tool token estimates from `tools/list` (saved or live stdio), warnings for missing, duplicate or bloated descriptions, deep schemas and huge enums, and a `--budget` CI gate. Zero dependencies. |
-| [**toolrank**](https://github.com/celaldrg/toolrank) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Rank MCP `tools/list` tools for a natural-language task with name/description/schema heuristics (no LLM): top-N scores, token estimates, and a `-budget` mode to keep only what fits. Zero-dependency Go CLI. |
-| [**ctxlint**](https://github.com/celaldrg/ctxlint) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Lint the files your coding agents read every turn (`AGENTS.md`, `CLAUDE.md`, `.cursorrules`, `copilot-instructions.md`) against the real repo: stale paths and links, missing npm/make scripts, leaked secrets, home-dir paths, token bloat, copy-pasted drift. Zero dependencies. |
-| [**subagentlint**](https://github.com/celaldrg/subagentlint) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Lint Claude Code subagent files in `.claude/agents` before they fail silently: frontmatter typos, missing descriptions, duplicate names, broken hook scripts, and the 15,000-token description budget. Zero-dependency Python CLI. |
-| [**mcpaudit**](https://github.com/celaldrg/mcpaudit) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Audit MCP config files (`.mcp.json`, Cursor, VS Code, Gemini, Claude Desktop) before an agent runs them: hardcoded secrets, unpinned `npx`/`uvx`/`docker` servers, plain-HTTP remotes, home paths and conflicting duplicates. CI gate, zero dependencies. |
-| [**awesome-turkiye-dev**](https://github.com/celaldrg/awesome-turkiye-dev) | ![Markdown](https://img.shields.io/badge/-Curated%20list-555?style=flat-square&logo=markdown&logoColor=white) | Curated resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, events and jobs. |
+## II. The Switchboard
 
-Every project is MIT-licensed, has CI on every push, and ships with real example output in its README.
+<p align="center">
+  <img src="assets/plate-2-switchboard.webp" width="100%" alt="Plate II, The Switchboard. An engraving of a brass patch-panel switchboard: a hand plugs a braided cable into one of many jacks, and cables run from both panels into a clockwork core with a glowing teal orb. A pressure gauge sits on top and a padlock hangs from one side." />
+</p>
 
-### What I work on
+<p align="center"><sub><b>Plate II: The Switchboard.</b> Every MCP server is a cable plugged into the agent.<br/>These tools check what is on the other end: its config, its schema, its cost in tokens, and whether it is the right one for the job.</sub></p>
+
+| Repository | Language |
+|---|---|
+| **[mcpaudit](https://github.com/celaldrg/mcpaudit)**: Audit MCP configs (.mcp.json, Cursor, VS Code, Gemini, Claude Desktop) for hardcoded secrets, unpinned npx/uvx/docker servers, plain-HTTP remotes and broken entries. Zero-dep TypeScript CLI + CI gate. | TypeScript |
+| **[mcpdiff](https://github.com/celaldrg/mcpdiff)**: Catch breaking changes in MCP server tool schemas: diff two tools/list snapshots, fail CI on breaking changes. Zero-dependency Go CLI. | Go |
+| **[mcptax](https://github.com/celaldrg/mcptax)**: What does your MCP server cost an agent's context window? Per-tool token estimates, bloat warnings and a CI budget gate. TypeScript, zero deps. | TypeScript |
+| **[toolrank](https://github.com/celaldrg/toolrank)**: Rank MCP tools/list against a natural-language task with keyword heuristics (no LLM) | Go |
+| **[turkiye-mcp](https://github.com/celaldrg/turkiye-mcp)**: MCP server for Türkiye: TCMB exchange rates, AFAD/Kandilli earthquakes, holidays & business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. | TypeScript |
+
+## III. The Proofreader's Desk
+
+<p align="center">
+  <img src="assets/plate-3-proofreading-desk.webp" width="100%" alt="Plate III, The Proofreader's Desk. An engraving of a desk covered in manuscript stacks and an unrolled scroll: a magnifying lens on an articulated arm reads one stack, a balance scale weighs a few pages against brass weights, and a teal pen beside an inkwell marks the margin." />
+</p>
+
+<p align="center"><sub><b>Plate III: The Proofreader's Desk.</b> An agent reads its instruction files on every turn, and believes them.<br/>These linters proofread those files against the real repo: stale paths, hidden characters, broken links, and pages that weigh too many tokens.</sub></p>
+
+| Repository | Language |
+|---|---|
+| **[ctxlint](https://github.com/celaldrg/ctxlint)**: Lint AGENTS.md, CLAUDE.md, .cursorrules and copilot-instructions.md against your real repo: stale paths, missing scripts, leaked secrets, token bloat. Zero-dependency Python CLI. | Python |
+| **[skillcheck](https://github.com/celaldrg/skillcheck)**: Lint Agent Skills (SKILL.md folders) before Claude Code, Codex, Cursor or Copilot loads them: name and description rules, strict frontmatter, broken file links, context-size warnings. Zero dependencies. | Python |
+| **[subagentlint](https://github.com/celaldrg/subagentlint)**: Lint Claude Code subagent files (.claude/agents) before they fail silently: frontmatter typos, missing descriptions, duplicate names, broken hook scripts, description token budget. Zero-dependency Python CLI. | Python |
+| **[llmslint](https://github.com/celaldrg/llmslint)**: Lint llms.txt files before AI agents read them: structure, links, dead URLs and size, for a file, URL or whole domain. One Go binary. | Go |
+| **[invisigrep](https://github.com/celaldrg/invisigrep)**: Find invisible Unicode (zero-width, bidi, tag-char smuggling) that hides prompt injections in AGENTS.md, rules files and code. Zero-dep Go CLI. | Go |
+| **[tokmap](https://github.com/celaldrg/tokmap)**: See where your repo's tokens go before an AI agent reads it: a token budget map of files and folders, with lockfile/minified/generated hints and a CI budget check. Rust, zero deps. | Rust |
+
+## IV. The Seismograph
+
+<p align="center">
+  <img src="assets/plate-4-seismograph.webp" width="100%" alt="Plate IV, The Seismograph. An engraving of a brass seismograph whose paper drum records a teal wave, beside a branching tree drawn like a river delta, its sepia and teal strands splitting and merging, with small survey flags planted on several branch tips." />
+</p>
+
+<p align="center"><sub><b>Plate IV: The Seismograph.</b> Agents now write a real share of the code. The question is what happens to it afterwards.<br/>These tools read git history to measure it: who wrote today's lines, how fast agent code gets rewritten, and how agents' pull requests fare.</sub></p>
+
+| Repository | Language |
+|---|---|
+| **[agentprs](https://github.com/celaldrg/agentprs)**: How do AI agents' pull requests fare in your repo? Share, merge rate and time to merge for Copilot, Claude Code, Codex, Cursor, Devin, Jules & more vs humans. One Go binary, zero deps. | Go |
+| **[aiblame](https://github.com/celaldrg/aiblame)**: How much of this repo did AI write? git blame for the agent era: Claude Code, Cursor, Copilot, Codex, Aider, Devin & more. One command, zero deps. | TypeScript |
+| **[aichurn](https://github.com/celaldrg/aichurn)**: Does AI-written code get rewritten faster? Two-week churn, copy/paste and moved code from your git history, split by AI-assisted vs human commits. Single Rust binary. | Rust |
+
+## V. The Tool Roll
+
+<p align="center">
+  <img src="assets/plate-5-tool-roll.webp" width="100%" alt="Plate V, The Tool Roll. An overhead engraving of an unrolled leather tool roll holding, in separate pockets, a key, a stethoscope with teal tubing, a pair of dividers, a pocket watch, a small latch lock, a tuning fork, a magnifier and a fine brush." />
+</p>
+
+<p align="center"><sub><b>Plate V: The Tool Roll.</b> Not every instrument is for agents.<br/>Small, single-purpose CLIs for the everyday parts of the job: secrets, env files, lockfiles, certificates, old TODOs, CSVs and Turkish text.</sub></p>
+
+| Repository | Language |
+|---|---|
+| **[shush](https://github.com/celaldrg/shush)**: Cut the noise from command output before it reaches your AI agent. Errors always kept, full output one call away. MCP server + CLI for any agent. MIT. | TypeScript |
+| **[envguard](https://github.com/celaldrg/envguard)**: Catch .env mistakes before they ship: missing keys vs .env.example, broken quotes, duplicates, and real secrets committed to example files. Zero-dependency Python CLI + pre-commit hook. | Python |
+| **[lockdiff](https://github.com/celaldrg/lockdiff)**: Readable diffs for lockfiles: what was upgraded, downgraded, added or removed, with major bumps first. npm, pnpm, yarn, Cargo, Go, Poetry, uv, Pipenv, Composer, Bundler. Text, Markdown for PRs, JSON. Zero dependencies. | TypeScript |
+| **[certpeek](https://github.com/celaldrg/certpeek)**: Check TLS certificates from the command line: expiry, hostname, trust chain and TLS version for one host or hundreds, with JSON output and exit codes for cron/CI. Single Go binary, stdlib only. | Go |
+| **[todoage](https://github.com/celaldrg/todoage)**: How old are your TODOs? Finds TODO/FIXME/HACK comments in a git repo and uses git blame to show who wrote each one and how long ago. Oldest-first table, JSON, CI gate. Fast Rust CLI. | Rust |
+| **[csvglance](https://github.com/celaldrg/csvglance)**: Know a CSV before you load it: types, missing values, distinct counts, ranges and top values for every column in one streaming pass. Detects delimiters, gzip, decimal commas. Parallel, single Go binary. | Go |
+| **[turkcekit](https://github.com/celaldrg/turkcekit)**: Turkish text done right in Python: correct İ/ı casing, URL slugs, Turkish alphabetical sorting, numbers and lira amounts in words, 1.234,50 ₺ formatting. Zero dependencies, CLI included. | Python |
+
+## Also in the Drawer
+
+- [`awesome-turkiye-dev`](https://github.com/celaldrg/awesome-turkiye-dev): curated resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, events and jobs.
+- [`celaldrg.github.io`](https://github.com/celaldrg/celaldrg.github.io): source of my portfolio site, hand-written HTML/CSS with no framework and no JavaScript.
+
+## What I work on
 
 - **Tools for AI agents:** MCP servers that give agents better context with less noise
 - **Developer tooling:** small single-binary CLIs that fit into CI, cron and pre-commit
 - **Turkish developer ecosystem:** open data, local APIs and curated resources
 
-### Stack
+**On the bench:** `TypeScript` `Python` `Go` `Rust` `JavaScript` `Node.js` `GitHub Actions` `Linux` `Git`
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-### Activity
-
-<p>
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=celaldrg&show_icons=true&hide_border=true&hide_rank=true&count_private=false" alt="GitHub stats" />
-  <img height="150" src="https://streak-stats.demolab.com/?user=celaldrg&hide_border=true" alt="GitHub streak" />
-</p>
-
-### Contributing
+## Contributing
 
 Issues and pull requests are welcome on any of these projects. Issues labeled
 [`good first issue`](https://github.com/search?q=user%3Acelaldrg+label%3A%22good+first+issue%22+state%3Aopen&type=issues)
-are a good place to start.
+are a good place to start. Every project is MIT-licensed.
+
+## Colophon
+
+Five plates, made for this profile and stored in this repo under `assets/`. They are drawn as
+engravings from an imaginary observatory-workshop where the instruments serve an automated mind:
+a switchboard for its connections, a proofreader's desk for what it reads, a seismograph for what
+it leaves behind, and a tool roll for everything else. The frontispiece comes in a day and a night
+edition, swapped by `<picture>` to match your GitHub theme. Every caption is repeated as real text
+under its plate, because lettering inside an image is lost on a phone and to a screen reader.
+No badge services, no counters, no external requests.
 
 <p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar</sub></p>
-
