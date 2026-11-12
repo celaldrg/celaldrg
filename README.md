@@ -119,7 +119,7 @@ and real example output in its README.
 
 Issues and pull requests are welcome on any of these projects. Issues labeled
 [`good first issue`](https://github.com/search?q=user%3Acelaldrg+label%3A%22good+first+issue%22+state%3Aopen&type=issues)
-are a good place to start. Every project is MIT-licensed.
+are a good place to start. My own tools are MIT-licensed unless noted; translated forks keep their upstream licenses.
 
 ## Colophon
 
