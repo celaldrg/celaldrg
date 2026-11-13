@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <b>Celalettin Durğaç</b> · computer programmer and IT specialist<br/>
+  Computer programmer and IT specialist<br/>
   <sub><i>Plate I: The Observatory.</i> Instruments for AI agents: MCP servers, context linters and small, sharp CLIs.</sub>
 </p>
 

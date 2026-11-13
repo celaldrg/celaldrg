@@ -5,7 +5,7 @@ on:
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
-    branches: [main, animated-profile]
+    branches: [main]
     paths: [".github/workflows/snake.yml"]
 
 permissions:
