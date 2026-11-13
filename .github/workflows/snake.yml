@@ -1,0 +1,39 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, animated-profile]
+    paths: [".github/workflows/snake.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Draw the snake from the contribution graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#1d7a72&color_dots=#efe9dc,#e3cfa6,#cfa660,#9a6420,#5e3a12
+            dist/snake-dark.svg?color_snake=#d6a65a&color_dots=#161b22,#16403d,#1f6b64,#35a093,#5fd3c4
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Redraw contribution snake
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

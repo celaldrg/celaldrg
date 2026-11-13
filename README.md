@@ -1,8 +1,17 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/frontispiece-dark.webp" />
+    <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/frontispiece-dark.webp" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/frontispiece-dark-loop.webp" />
     <source media="(prefers-color-scheme: light)" srcset="assets/frontispiece-light.webp" />
     <img src="assets/frontispiece-light.webp" width="100%" alt="Plate I, The Observatory. An engraving of an engineer's observatory workshop: a long wooden bench holds a cable switchboard, a clockwork core with a glowing teal orb wired to every instrument, a seismograph drum, a magnifier and brass gauges, under tall arched windows and a domed telescope. Lettered: Celalettin Durğaç. Instruments for AI agents: MCP servers, context linters and small, sharp CLIs. TypeScript, Go, Rust, Python." />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+    <img src="assets/header-light.svg" width="100%" alt="Celalettin Durğaç. Instruments for AI agents, from Türkiye. A typing line cycles through: building MCP servers that give agents their hands; linting the files agents read on every turn; measuring what AI agents do to a codebase; small, sharp CLIs in TypeScript, Go, Rust and Python; open source, zero dependencies, CI on every push." />
   </picture>
 </p>
 
@@ -37,7 +46,23 @@ its context. The rest measure what agents actually do to a codebase, plus the ev
 reach for myself. Each one is a single binary or a zero-dependency package, with CI on every push
 and real example output in its README.
 
+<p align="center">
+  <a href="https://github.com/celaldrg?tab=repositories">
+    <img src="assets/showcase.webp" width="100%" alt="A slow slideshow of the cover art for eight of the tools: mcpaudit, hooklint, ctxlint, agentprs, turkiye-mcp, mcptax, aiblame and subagentlint." />
+  </a>
+</p>
+
+<p align="center"><sub><i>The instruments, in motion:</i> mcpaudit · hooklint · ctxlint · agentprs · turkiye-mcp · mcptax · aiblame · subagentlint</sub></p>
+
 ## II. The Switchboard
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-switchboard-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-switchboard-light.svg" />
+    <img src="assets/divider-switchboard-light.svg" width="100%" alt="MCP servers, configs, schemas, token cost" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="assets/plate-2-switchboard.webp" width="100%" alt="Plate II, The Switchboard. An engraving of a brass patch-panel switchboard: a hand plugs a braided cable into one of many jacks, and cables run from both panels into a clockwork core with a glowing teal orb. A pressure gauge sits on top and a padlock hangs from one side." />
@@ -54,6 +79,14 @@ and real example output in its README.
 | **[turkiye-mcp](https://github.com/celaldrg/turkiye-mcp)**: MCP server for Türkiye: TCMB exchange rates, AFAD/Kandilli earthquakes, holidays & business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. | TypeScript |
 
 ## III. The Proofreader's Desk
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-proofreader-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-proofreader-light.svg" />
+    <img src="assets/divider-proofreader-light.svg" width="100%" alt="AGENTS.md, CLAUDE.md, skills, hooks, llms.txt" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="assets/plate-3-proofreading-desk.webp" width="100%" alt="Plate III, The Proofreader's Desk. An engraving of a desk covered in manuscript stacks and an unrolled scroll: a magnifying lens on an articulated arm reads one stack, a balance scale weighs a few pages against brass weights, and a teal pen beside an inkwell marks the margin." />
@@ -74,6 +107,14 @@ and real example output in its README.
 ## IV. The Seismograph
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-seismograph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-seismograph-light.svg" />
+    <img src="assets/divider-seismograph-light.svg" width="100%" alt="Git history, blame, churn, pull requests" />
+  </picture>
+</p>
+
+<p align="center">
   <img src="assets/plate-4-seismograph.webp" width="100%" alt="Plate IV, The Seismograph. An engraving of a brass seismograph whose paper drum records a teal wave, beside a branching tree drawn like a river delta, its sepia and teal strands splitting and merging, with small survey flags planted on several branch tips." />
 </p>
 
@@ -86,6 +127,14 @@ and real example output in its README.
 | **[aichurn](https://github.com/celaldrg/aichurn)**: Does AI-written code get rewritten faster? Two-week churn, copy/paste and moved code from your git history, split by AI-assisted vs human commits. Single Rust binary. | Rust |
 
 ## V. The Tool Roll
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-toolroll-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-toolroll-light.svg" />
+    <img src="assets/divider-toolroll-light.svg" width="100%" alt="Secrets, env files, lockfiles, certificates, TODOs, CSV, Türkçe" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="assets/plate-5-tool-roll.webp" width="100%" alt="Plate V, The Tool Roll. An overhead engraving of an unrolled leather tool roll holding, in separate pockets, a key, a stethoscope with teal tubing, a pair of dividers, a pocket watch, a small latch lock, a tuning fork, a magnifier and a fine brush." />
@@ -116,6 +165,26 @@ and real example output in its README.
 
 **On the bench:** `TypeScript` `Python` `Go` `Rust` `JavaScript` `Node.js` `GitHub Actions` `Linux` `Git`
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
+    <img src="assets/stack-light.svg" width="560" alt="TypeScript, Go, Rust, Python, JavaScript, Node.js, GitHub Actions, Linux and Git icons" />
+  </picture>
+</p>
+
+## The Field Log
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/celaldrg/celaldrg/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/celaldrg/celaldrg/output/snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/celaldrg/celaldrg/output/snake-light.svg" width="100%" alt="A snake moving across my GitHub contribution graph and eating the squares in order" />
+  </picture>
+</p>
+
+<p align="center"><sub>Every square is a day at the bench. A small GitHub Action redraws this log each night.</sub></p>
+
 ## Contributing
 
 Issues and pull requests are welcome on any of these projects. Issues labeled
@@ -130,6 +199,13 @@ a switchboard for its connections, a proofreader's desk for what it reads, a sei
 it leaves behind, and a tool roll for everything else. The frontispiece comes in a day and a night
 edition, swapped by `<picture>` to match your GitHub theme. Every caption is repeated as real text
 under its plate, because lettering inside an image is lost on a phone and to a screen reader.
-No badge services, no counters, no external requests.
+
+The night edition of the frontispiece moves: a six-second loop of the same engraving, with a
+still version for anyone who has reduced motion turned on. The name, the typing line and the
+section rules are hand-written SVG animations with their fonts embedded. The tool covers in the
+slideshow come from each tool's own README. The stack icons are from
+[skill-icons](https://github.com/tandpfun/skill-icons) (MIT) and are stored here too. The field
+log is drawn from my contribution graph each night by [Platane/snk](https://github.com/Platane/snk)
+and published to this repo's `output` branch. No badge services, no counters, no third-party requests.
 
 <p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar</sub></p>
