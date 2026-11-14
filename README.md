@@ -1,26 +1,18 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/frontispiece-dark.webp" />
-    <source media="(prefers-color-scheme: dark)" srcset="assets/frontispiece-dark-loop.webp" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/frontispiece-light.webp" />
-    <img src="assets/frontispiece-light.webp" width="100%" alt="Plate I, The Observatory. An engraving of an engineer's observatory workshop: a long wooden bench holds a cable switchboard, a clockwork core with a glowing teal orb wired to every instrument, a seismograph drum, a magnifier and brass gauges, under tall arched windows and a domed telescope. Lettered: Celalettin Durğaç. Instruments for AI agents: MCP servers, context linters and small, sharp CLIs. TypeScript, Go, Rust, Python." />
-  </picture>
+  <a href="https://celaldrg.github.io">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/twin-hero-still.webp" />
+      <img src="assets/twin-hero.webp" width="100%" alt="My digital twin: a green hologram of my face and shoulders, built from code characters and particles, materializes over a glowing projector ring, speaks, and dissolves again. Code rain spelled from my tools' names falls at the edges. Lettered: Celalettin Durğaç, digital twin, instruments for AI agents, 22 tools in TypeScript, Go, Rust and Python, from Türkiye." />
+    </picture>
+  </a>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-    <img src="assets/header-light.svg" width="100%" alt="Celalettin Durğaç. Instruments for AI agents, from Türkiye. A typing line cycles through: building MCP servers that give agents their hands; linting the files agents read on every turn; measuring what AI agents do to a codebase; small, sharp CLIs in TypeScript, Go, Rust and Python; open source, zero dependencies, CI on every push." />
-  </picture>
+  <img src="assets/transmission.svg" width="100%" alt="Connection established. I am Celal's digital copy; I watch this place when he is away. There are twenty-two tools in this system, all built for AI agents. Tell me what is breaking. I will show you where it is." />
 </p>
 
 <p align="center">
-  Computer programmer and IT specialist<br/>
-  <sub><i>Plate I: The Observatory.</i> Instruments for AI agents: MCP servers, context linters and small, sharp CLIs.</sub>
-</p>
-
-<p align="center">
+  Computer programmer and IT specialist from Türkiye<br/>
   <a href="https://celaldrg.github.io">celaldrg.github.io</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/celaldrg/">LinkedIn</a>
@@ -28,23 +20,27 @@
   <a href="https://github.com/celaldrg?tab=repositories">All repositories</a>
 </p>
 
-<p align="center">
-  <sub><b>Plates</b> &nbsp;
-  <a href="#ii-the-switchboard">II. The Switchboard</a> ·
-  <a href="#iii-the-proofreaders-desk">III. The Proofreader's Desk</a> ·
-  <a href="#iv-the-seismograph">IV. The Seismograph</a> ·
-  <a href="#v-the-tool-roll">V. The Tool Roll</a></sub>
-</p>
+<p align="center"><sub><b>Sectors</b> &nbsp;
+  <a href="#sector-01">01 · MCP</a> ·
+  <a href="#sector-02">02 · Instruction files</a> ·
+  <a href="#sector-03">03 · Git</a> ·
+  <a href="#sector-04">04 · Everyday CLIs</a></sub></p>
 
 ---
 
-I'm a computer programmer and IT specialist from Türkiye. I build small, sharp developer tools:
-MCP servers for AI agents and CLIs that catch problems before they ship. An agent is only as good
-as what it is wired to and what it reads every turn, so most of my tools sit at those two seams:
-the MCP servers and configs that give an agent its hands, and the instruction files that give it
-its context. The rest measure what agents actually do to a codebase, plus the everyday CLIs I
-reach for myself. Each one is a single binary or a zero-dependency package, with CI on every push
-and real example output in its README.
+I build small, sharp developer tools: MCP servers for AI agents and CLIs that catch problems
+before they ship. An agent is only as good as what it is wired to and what it reads every turn,
+so most of my tools sit at those two seams. The rest measure what agents actually do to a
+codebase, plus the everyday CLIs I reach for myself. Each one is a single binary or a
+zero-dependency package, with CI on every push and real example output in its README.
+
+<p align="center">
+  <a href="https://celaldrg.github.io">
+    <img src="assets/boot.svg" width="100%" alt="A terminal boot screen: Celal · Dijital İkiz, sentinel of github.com/celaldrg. Lines type in: connection detected, scanning visitor, access level guest, digital twin ready. A CONNECT button pulses. Click to open the live 3D twin." />
+  </a>
+</p>
+
+<p align="center"><sub><b>Talk to the twin.</b> On my site the hologram is live: it turns to the tool you pick, answers in Turkish or English,<br/>and hands you the one-line install for whatever is breaking. No language model behind it; it all runs in your browser.</sub></p>
 
 <p align="center">
   <a href="https://github.com/celaldrg?tab=repositories">
@@ -52,23 +48,11 @@ and real example output in its README.
   </a>
 </p>
 
-<p align="center"><sub><i>The instruments, in motion:</i> mcpaudit · hooklint · ctxlint · agentprs · turkiye-mcp · mcptax · aiblame · subagentlint</sub></p>
+## Sector 01
 
-## II. The Switchboard
+<p align="center"><img src="assets/sector-01.svg" width="100%" alt="Sector 01: MCP, what an agent is wired to. 5 tools: mcpaudit, mcpdiff, mcptax, toolrank, turkiye-mcp." /></p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-switchboard-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/divider-switchboard-light.svg" />
-    <img src="assets/divider-switchboard-light.svg" width="100%" alt="MCP servers, configs, schemas, token cost" />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="assets/plate-2-switchboard.webp" width="100%" alt="Plate II, The Switchboard. An engraving of a brass patch-panel switchboard: a hand plugs a braided cable into one of many jacks, and cables run from both panels into a clockwork core with a glowing teal orb. A pressure gauge sits on top and a padlock hangs from one side." />
-</p>
-
-<p align="center"><sub><b>Plate II: The Switchboard.</b> Every MCP server is a cable plugged into the agent.<br/>These tools check what is on the other end: its config, its schema, its cost in tokens, and whether it is the right one for the job.</sub></p>
+<p align="center"><sub>Every MCP server is a cable plugged into the agent. These tools check what is on the other end:<br/>its config, its schema, its cost in tokens, and whether it is the right one for the job.</sub></p>
 
 | Repository | Language |
 |---|---|
@@ -78,21 +62,11 @@ and real example output in its README.
 | **[toolrank](https://github.com/celaldrg/toolrank)**: Rank MCP tools/list against a natural-language task with keyword heuristics (no LLM) | Go |
 | **[turkiye-mcp](https://github.com/celaldrg/turkiye-mcp)**: MCP server for Türkiye: TCMB exchange rates, AFAD/Kandilli earthquakes, holidays & business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. | TypeScript |
 
-## III. The Proofreader's Desk
+## Sector 02
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-proofreader-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/divider-proofreader-light.svg" />
-    <img src="assets/divider-proofreader-light.svg" width="100%" alt="AGENTS.md, CLAUDE.md, skills, hooks, llms.txt" />
-  </picture>
-</p>
+<p align="center"><img src="assets/sector-02.svg" width="100%" alt="Sector 02: Instruction files, what an agent reads. 7 tools: ctxlint, skillcheck, subagentlint, hooklint, llmslint, invisigrep, tokmap." /></p>
 
-<p align="center">
-  <img src="assets/plate-3-proofreading-desk.webp" width="100%" alt="Plate III, The Proofreader's Desk. An engraving of a desk covered in manuscript stacks and an unrolled scroll: a magnifying lens on an articulated arm reads one stack, a balance scale weighs a few pages against brass weights, and a teal pen beside an inkwell marks the margin." />
-</p>
-
-<p align="center"><sub><b>Plate III: The Proofreader's Desk.</b> An agent reads its instruction files on every turn, and believes them.<br/>These linters proofread those files against the real repo: stale paths, hidden characters, broken links, and pages that weigh too many tokens.</sub></p>
+<p align="center"><sub>An agent reads its instruction files on every turn, and believes them.<br/>These linters check those files against the real repo: stale paths, hidden characters, broken links, token weight.</sub></p>
 
 | Repository | Language |
 |---|---|
@@ -104,21 +78,11 @@ and real example output in its README.
 | **[invisigrep](https://github.com/celaldrg/invisigrep)**: Find invisible Unicode (zero-width, bidi, tag-char smuggling) that hides prompt injections in AGENTS.md, rules files and code. Zero-dep Go CLI. | Go |
 | **[tokmap](https://github.com/celaldrg/tokmap)**: See where your repo's tokens go before an AI agent reads it: a token budget map of files and folders, with lockfile/minified/generated hints and a CI budget check. Rust, zero deps. | Rust |
 
-## IV. The Seismograph
+## Sector 03
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-seismograph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/divider-seismograph-light.svg" />
-    <img src="assets/divider-seismograph-light.svg" width="100%" alt="Git history, blame, churn, pull requests" />
-  </picture>
-</p>
+<p align="center"><img src="assets/sector-03.svg" width="100%" alt="Sector 03: Git, what an agent leaves behind. 3 tools: agentprs, aiblame, aichurn." /></p>
 
-<p align="center">
-  <img src="assets/plate-4-seismograph.webp" width="100%" alt="Plate IV, The Seismograph. An engraving of a brass seismograph whose paper drum records a teal wave, beside a branching tree drawn like a river delta, its sepia and teal strands splitting and merging, with small survey flags planted on several branch tips." />
-</p>
-
-<p align="center"><sub><b>Plate IV: The Seismograph.</b> Agents now write a real share of the code. The question is what happens to it afterwards.<br/>These tools read git history to measure it: who wrote today's lines, how fast agent code gets rewritten, and how agents' pull requests fare.</sub></p>
+<p align="center"><sub>Agents now write a real share of the code. These tools read git history to measure it:<br/>who wrote today’s lines, how fast agent code gets rewritten, and how agents’ pull requests fare.</sub></p>
 
 | Repository | Language |
 |---|---|
@@ -126,21 +90,11 @@ and real example output in its README.
 | **[aiblame](https://github.com/celaldrg/aiblame)**: How much of this repo did AI write? git blame for the agent era: Claude Code, Cursor, Copilot, Codex, Aider, Devin & more. One command, zero deps. | TypeScript |
 | **[aichurn](https://github.com/celaldrg/aichurn)**: Does AI-written code get rewritten faster? Two-week churn, copy/paste and moved code from your git history, split by AI-assisted vs human commits. Single Rust binary. | Rust |
 
-## V. The Tool Roll
+## Sector 04
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-toolroll-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/divider-toolroll-light.svg" />
-    <img src="assets/divider-toolroll-light.svg" width="100%" alt="Secrets, env files, lockfiles, certificates, TODOs, CSV, Türkçe" />
-  </picture>
-</p>
+<p align="center"><img src="assets/sector-04.svg" width="100%" alt="Sector 04: Everyday CLIs. 7 tools: shush, envguard, lockdiff, certpeek, todoage, csvglance, turkcekit." /></p>
 
-<p align="center">
-  <img src="assets/plate-5-tool-roll.webp" width="100%" alt="Plate V, The Tool Roll. An overhead engraving of an unrolled leather tool roll holding, in separate pockets, a key, a stethoscope with teal tubing, a pair of dividers, a pocket watch, a small latch lock, a tuning fork, a magnifier and a fine brush." />
-</p>
-
-<p align="center"><sub><b>Plate V: The Tool Roll.</b> Not every instrument is for agents.<br/>Small, single-purpose CLIs for the everyday parts of the job: secrets, env files, lockfiles, certificates, old TODOs, CSVs and Turkish text.</sub></p>
+<p align="center"><sub>Not every instrument is for agents. Small, single-purpose CLIs for the everyday parts of the job:<br/>secrets, env files, lockfiles, certificates, old TODOs, CSVs and Turkish text.</sub></p>
 
 | Repository | Language |
 |---|---|
@@ -193,19 +147,14 @@ are a good place to start. My own tools are MIT-licensed unless noted; the unoff
 
 ## Colophon
 
-Five plates, made for this profile and stored in this repo under `assets/`. They are drawn as
-engravings from an imaginary observatory-workshop where the instruments serve an automated mind:
-a switchboard for its connections, a proofreader's desk for what it reads, a seismograph for what
-it leaves behind, and a tool roll for everything else. The frontispiece comes in a day and a night
-edition, swapped by `<picture>` to match your GitHub theme. Every caption is repeated as real text
-under its plate, because lettering inside an image is lost on a phone and to a screen reader.
-
-The night edition of the frontispiece moves: a six-second loop of the same engraving, with a
-still version for anyone who has reduced motion turned on. The name, the typing line and the
-section rules are hand-written SVG animations with their fonts embedded. The tool covers in the
-slideshow come from each tool's own README. The stack icons are from
-[skill-icons](https://github.com/tandpfun/skill-icons) (MIT) and are stored here too. The field
-log is drawn from my contribution graph each night by [Platane/snk](https://github.com/Platane/snk)
-and published to this repo's `output` branch. No badge services, no counters, no third-party requests.
+The twin at the top is made from one photograph of me: a face mesh, a few hundred thousand code
+characters and particles, and a small behaviour engine for blinking, gaze and speech, all drawn
+with three.js in the browser. The loop here is a twelve-second recording of it, with a still
+frame for anyone who has reduced motion turned on. The boot screen, the transmission and the
+sector strips are hand-written SVG animations with their fonts embedded, in the twin's own
+palette: one green, and one red for when the signal drops. The tool covers come from each tool's
+own README. The stack icons are from [skill-icons](https://github.com/tandpfun/skill-icons) (MIT)
+and are stored here too. The field log is drawn from my contribution graph each night by
+[Platane/snk](https://github.com/Platane/snk). No badge services, no counters, no third-party requests.
 
 <p align="center"><sub>Türk geliştiriciler için açık kaynak araçlar</sub></p>
