@@ -96,6 +96,7 @@ and real example output in its README.
 | **[mcpdiff](https://github.com/celaldrg/mcpdiff)**: Catch breaking changes in MCP server tool schemas: diff two tools/list snapshots, fail CI on breaking changes. Zero-dependency Go CLI. | Go |
 | **[mcptax](https://github.com/celaldrg/mcptax)**: What does your MCP server cost an agent's context window? Per-tool token estimates, bloat warnings and a CI budget gate. TypeScript, zero deps. | TypeScript |
 | **[toolrank](https://github.com/celaldrg/toolrank)**: Rank MCP tools/list against a natural-language task with keyword heuristics (no LLM) | Go |
+| **[schemafit](https://github.com/celaldrg/schemafit)**: Will your JSON Schema survive strict mode? Check schemas, tool arrays and MCP tools/list against OpenAI Structured Outputs and Claude strict tool use before the API returns a 400; `fix` rewrites them. Zero-dep Go CLI. | Go |
 | **[turkiye-mcp](https://github.com/celaldrg/turkiye-mcp)**: MCP server for Türkiye: TCMB exchange rates, AFAD/Kandilli earthquakes, holidays & business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. | TypeScript |
 
 ## III. The Proofreader's Desk
