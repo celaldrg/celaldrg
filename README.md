@@ -98,6 +98,7 @@ and real example output in its README.
 | **[toolrank](https://github.com/celaldrg/toolrank)**: Rank MCP tools/list against a natural-language task with keyword heuristics (no LLM) | Go |
 | **[schemafit](https://github.com/celaldrg/schemafit)**: Will your JSON Schema survive strict mode? Check schemas, tool arrays and MCP tools/list against OpenAI Structured Outputs and Claude strict tool use before the API returns a 400; `fix` rewrites them. Zero-dep Go CLI. | Go |
 | **[mcpprobe](https://github.com/celaldrg/mcpprobe)**: Start a stdio MCP server the way MCP 2026-07-28 (`server/discover`) and 2025-11-25 (`initialize`) clients do and see what breaks: protocol era, stdout noise, missing cache hints, tool shape, unknown-method and shutdown behaviour. Never calls tools. Zero-dep Python CLI. | Python |
+| **[mcpblint](https://github.com/celaldrg/mcpblint)**: Lint MCP Bundles (.mcpb, formerly .dxt) before anyone installs them: strict manifest checks for every spec version, `mcp_config` vs `user_config` wiring, leaked keys and `.env` files, missing entry points and unbundled deps, for a folder or a packed archive. Zero-dep Go CLI. | Go |
 | **[turkiye-mcp](https://github.com/celaldrg/turkiye-mcp)**: MCP server for Türkiye: TCMB exchange rates, AFAD/Kandilli earthquakes, holidays & business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. | TypeScript |
 
 ## III. The Proofreader's Desk
