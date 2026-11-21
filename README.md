@@ -179,6 +179,7 @@ and real example output in its README.
 
 ## Also in the Drawer
 
+- [`kovan`](https://github.com/celaldrg/kovan): an AI operations command center. AI agents in six departments, drawn as bees in a living 3D honeycomb, take tasks, read your Markdown notes and file results back, with live metrics, an agents view and approvals for anything outbound. Runs locally on your own Claude Code login, or offline in demo mode. TypeScript, three.js.
 - [`awesome-turkiye-dev`](https://github.com/celaldrg/awesome-turkiye-dev): curated resources for developers in Türkiye: open-source projects, Turkish NLP, APIs and open data, communities, events and jobs.
 - [`celaldrg.github.io`](https://github.com/celaldrg/celaldrg.github.io): source of my portfolio site, hand-written HTML/CSS with no framework and no JavaScript.
 
