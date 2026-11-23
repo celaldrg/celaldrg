@@ -56,13 +56,13 @@ and real example output in its README.
 
 ## The Instruments at a Glance
 
-<p align="center"><sub>All 22 tools in four sectors. Each strip opens its plate below.</sub></p>
+<p align="center"><sub>All 28 tools in four sectors. Each strip opens its plate below.</sub></p>
 
-<p align="center"><a href="#ii-the-switchboard"><img src="assets/sector-01.svg" width="100%" alt="Sector 01: MCP, what an agent is wired to. 5 tools: mcpaudit, mcpdiff, mcptax, toolrank, turkiye-mcp. Opens Plate II, The Switchboard." /></a></p>
+<p align="center"><a href="#ii-the-switchboard"><img src="assets/sector-01.svg" width="100%" alt="Sector 01: MCP, what an agent is wired to. 9 tools: mcpaudit, mcpdiff, mcptax, toolrank, schemafit, mcpprobe, mcpblint, mcpsnap, turkiye-mcp. Opens Plate II, The Switchboard." /></a></p>
 
 <p align="center"><sub>Every MCP server is a cable plugged into the agent. These tools check what is on the other end:<br/>its config, its schema, its cost in tokens, and whether it is the right one for the job.</sub></p>
 
-<p align="center"><a href="#iii-the-proofreaders-desk"><img src="assets/sector-02.svg" width="100%" alt="Sector 02: Instruction files, what an agent reads. 7 tools: ctxlint, skillcheck, subagentlint, hooklint, llmslint, invisigrep, tokmap. Opens Plate III, The Proofreader's Desk." /></a></p>
+<p align="center"><a href="#iii-the-proofreaders-desk"><img src="assets/sector-02.svg" width="100%" alt="Sector 02: Instruction files, what an agent reads. 9 tools: ctxlint, skillcheck, subagentlint, hooklint, permlint, a2alint, llmslint, invisigrep, tokmap. Opens Plate III, The Proofreader's Desk." /></a></p>
 
 <p align="center"><sub>An agent reads its instruction files on every turn, and believes them.<br/>These linters check those files against the real repo: stale paths, hidden characters, broken links, token weight.</sub></p>
 
@@ -124,6 +124,7 @@ and real example output in its README.
 | **[skillcheck](https://github.com/celaldrg/skillcheck)**: Lint Agent Skills (SKILL.md folders) before Claude Code, Codex, Cursor or Copilot loads them: name and description rules, strict frontmatter, broken file links, context-size warnings. Zero dependencies. | Python |
 | **[subagentlint](https://github.com/celaldrg/subagentlint)**: Lint Claude Code subagent files (.claude/agents) before they fail silently: frontmatter typos, missing descriptions, duplicate names, broken hook scripts, description token budget. Zero-dependency Python CLI. | Python |
 | **[hooklint](https://github.com/celaldrg/hooklint)**: Lint Claude Code hooks (settings.json, plugin hooks.json) before they silently fail: unknown events, case-sensitive matchers that match nothing, missing scripts, PreToolUse guards that exit 1 and never block. Rust, zero deps. | Rust |
+| **[permlint](https://github.com/celaldrg/permlint)**: Lint Claude Code permission rules (allow/ask/deny in .claude/settings.json) before they let too much through: single-slash paths and `:*` patterns that never match, allow rules shadowed by deny/ask, risky wildcards like `Bash(git * main)`, and `explain` to see which rule decides a command. Zero-dep TypeScript CLI. | TypeScript |
 | **[a2alint](https://github.com/celaldrg/a2alint)**: Lint A2A (Agent2Agent) Agent Cards (/.well-known/agent-card.json) from a file or URL: 1.0 vs 0.3 layout, missing fields, bad bindings and media types, undefined security schemes, leaked secrets, hidden text. Zero-dep TypeScript CLI. | TypeScript |
 | **[llmslint](https://github.com/celaldrg/llmslint)**: Lint llms.txt files before AI agents read them: structure, links, dead URLs and size, for a file, URL or whole domain. One Go binary. | Go |
 | **[invisigrep](https://github.com/celaldrg/invisigrep)**: Find invisible Unicode (zero-width, bidi, tag-char smuggling) that hides prompt injections in AGENTS.md, rules files and code. Zero-dep Go CLI. | Go |
