@@ -56,9 +56,9 @@ and real example output in its README.
 
 ## The Instruments at a Glance
 
-<p align="center"><sub>All 28 tools in four sectors. Each strip opens its plate below.</sub></p>
+<p align="center"><sub>All 29 tools in four sectors. Each strip opens its plate below.</sub></p>
 
-<p align="center"><a href="#ii-the-switchboard"><img src="assets/sector-01.svg" width="100%" alt="Sector 01: MCP, what an agent is wired to. 9 tools: mcpaudit, mcpdiff, mcptax, toolrank, schemafit, mcpprobe, mcpblint, mcpsnap, turkiye-mcp. Opens Plate II, The Switchboard." /></a></p>
+<p align="center"><a href="#ii-the-switchboard"><img src="assets/sector-01.svg" width="100%" alt="Sector 01: MCP, what an agent is wired to. 10 tools: mcpaudit, mcpdiff, mcptax, toolrank, schemafit, mcpprobe, mcpblint, mcpsnap, mcpshake, turkiye-mcp. Opens Plate II, The Switchboard." /></a></p>
 
 <p align="center"><sub>Every MCP server is a cable plugged into the agent. These tools check what is on the other end:<br/>its config, its schema, its cost in tokens, and whether it is the right one for the job.</sub></p>
 
@@ -100,6 +100,7 @@ and real example output in its README.
 | **[mcpprobe](https://github.com/celaldrg/mcpprobe)**: Start a stdio MCP server the way MCP 2026-07-28 (`server/discover`) and 2025-11-25 (`initialize`) clients do and see what breaks: protocol era, stdout noise, missing cache hints, tool shape, unknown-method and shutdown behaviour. Never calls tools. Zero-dep Python CLI. | Python |
 | **[mcpblint](https://github.com/celaldrg/mcpblint)**: Lint MCP Bundles (.mcpb, formerly .dxt) before anyone installs them: strict manifest checks for every spec version, `mcp_config` vs `user_config` wiring, leaked keys and `.env` files, missing entry points and unbundled deps, for a folder or a packed archive. Zero-dep Go CLI. | Go |
 | **[mcpsnap](https://github.com/celaldrg/mcpsnap)**: Snapshot tests for MCP servers: record a real stdio session once, replay it on every change and fail when tool descriptions, schemas, results or errors drift, or a stray print hits stdout. Tools matched by name, `--ignore` paths, `--update`. Zero-dep Rust CLI. | Rust |
+| **[mcpshake](https://github.com/celaldrg/mcpshake)**: Property-based tests for MCP servers: call every tool with schema-generated valid and invalid arguments and catch crashes, hangs, stdout noise, leaked stack traces and `outputSchema` lies, with the exact arguments that broke it. Restarts the server and keeps going; skips destructive tools. Zero-dep Python CLI. | Python |
 | **[turkiye-mcp](https://github.com/celaldrg/turkiye-mcp)**: MCP server for Türkiye: TCMB exchange rates, AFAD/Kandilli earthquakes, holidays & business days, IBAN/TCKN/VKN validation, provinces, prayer times, weather. No API keys. | TypeScript |
 
 ## III. The Proofreader's Desk
