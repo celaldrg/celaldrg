@@ -56,7 +56,7 @@ and real example output in its README.
 
 ## The Instruments at a Glance
 
-<p align="center"><sub>All 32 tools in four sectors. Each strip opens its plate below.</sub></p>
+<p align="center"><sub>All 33 tools in four sectors. Each strip opens its plate below.</sub></p>
 
 <p align="center"><a href="#ii-the-switchboard"><img src="assets/sector-01.svg" width="100%" alt="Sector 01: MCP, what an agent is wired to. 10 tools: mcpaudit, mcpdiff, mcptax, toolrank, schemafit, mcpprobe, mcpblint, mcpsnap, mcpshake, turkiye-mcp. Opens Plate II, The Switchboard." /></a></p>
 
@@ -70,9 +70,9 @@ and real example output in its README.
 
 <p align="center"><sub>Agents now write a real share of the code. These tools read git history to measure it:<br/>who wrote today’s lines, how fast agent code gets rewritten, and how agents’ pull requests fare.</sub></p>
 
-<p align="center"><a href="#v-the-tool-roll"><img src="assets/sector-04.svg" width="100%" alt="Sector 04: Everyday CLIs. 10 tools: shush, undoguard, flakehound, dumpveil, envguard, lockdiff, certpeek, todoage, csvglance, turkcekit. Opens Plate V, The Tool Roll." /></a></p>
+<p align="center"><a href="#v-the-tool-roll"><img src="assets/sector-04.svg" width="100%" alt="Sector 04: Everyday CLIs. 11 tools: shush, undoguard, flakehound, dumpveil, testsift, envguard, lockdiff, certpeek, todoage, csvglance, turkcekit. Opens Plate V, The Tool Roll." /></a></p>
 
-<p align="center"><sub>Not every instrument is for agents. Small, single-purpose CLIs for the everyday parts of the job:<br/>an undo button for agents, flaky tests, PII in database dumps, secrets, env files, lockfiles, certificates, old TODOs, CSVs and Turkish text.</sub></p>
+<p align="center"><sub>Not every instrument is for agents. Small, single-purpose CLIs for the everyday parts of the job:<br/>an undo button for agents, flaky tests, PII in database dumps, test selection, secrets, env files, lockfiles, certificates, old TODOs, CSVs and Turkish text.</sub></p>
 
 ## II. The Switchboard
 
@@ -167,7 +167,7 @@ and real example output in its README.
   <img src="assets/plate-5-tool-roll.webp" width="100%" alt="Plate V, The Tool Roll. An overhead engraving of an unrolled leather tool roll holding, in separate pockets, a key, a stethoscope with teal tubing, a pair of dividers, a pocket watch, a small latch lock, a tuning fork, a magnifier and a fine brush." />
 </p>
 
-<p align="center"><sub><b>Plate V: The Tool Roll.</b> Not every instrument is for agents.<br/>Small, single-purpose CLIs for the everyday parts of the job: an undo button for agents, flaky tests, PII in database dumps, secrets, env files, lockfiles, certificates, old TODOs, CSVs and Turkish text.</sub></p>
+<p align="center"><sub><b>Plate V: The Tool Roll.</b> Not every instrument is for agents.<br/>Small, single-purpose CLIs for the everyday parts of the job: an undo button for agents, flaky tests, PII in database dumps, test selection, secrets, env files, lockfiles, certificates, old TODOs, CSVs and Turkish text.</sub></p>
 
 | Repository | Language |
 |---|---|
@@ -175,6 +175,7 @@ and real example output in its README.
 | **[undoguard](https://github.com/celaldrg/undoguard)**: A safety belt for AI coding agents: blocks destructive shell commands (`rm -rf` outside the project, `git push --force`, `DROP TABLE`, disk tools) before they run, snapshots what allowed commands and edit tools touch, and `undoguard undo` puts it back. Hooks for Claude Code, Codex and Gemini CLI. Single Go binary. | Go |
 | **[flakehound](https://github.com/celaldrg/flakehound)**: Find flaky tests and prove it with numbers: repeats your test command or ingests CI reports (JUnit, `go test -json`, TAP, Jest), ranks tests that pass and fail on the same commit with failure rate, 95% interval and likely cause, then quarantines them and gates CI so flakes stop blocking merges. Single Go binary, stdlib only. | Go |
 | **[dumpveil](https://github.com/celaldrg/dumpveil)**: Scrub personal data out of PostgreSQL, MySQL and SQLite dumps before they leave production: finds emails, phones, cards (Luhn), IBANs (mod-97), keys and PII inside free text, swaps them for consistent keyed fakes so joins still work, and `verify` proves nothing real is left. Streaming, byte-exact, zero-dependency Rust CLI. | Rust |
+| **[testsift](https://github.com/celaldrg/testsift)**: Run only the tests a change can affect: builds an import graph for Python, JS/TS, Go, Rust and Java/Kotlin, adds naming, fixture and git co-change signals, and prints the tests to run with the exact chain that selected each one. `backtest` measures recall on your own commits. Zero-dependency Python CLI, MIT. | Python |
 | **[envguard](https://github.com/celaldrg/envguard)**: Catch .env mistakes before they ship: missing keys vs .env.example, broken quotes, duplicates, and real secrets committed to example files. Zero-dependency Python CLI + pre-commit hook. | Python |
 | **[lockdiff](https://github.com/celaldrg/lockdiff)**: Readable diffs for lockfiles: what was upgraded, downgraded, added or removed, with major bumps first. npm, pnpm, yarn, Cargo, Go, Poetry, uv, Pipenv, Composer, Bundler. Text, Markdown for PRs, JSON. Zero dependencies. | TypeScript |
 | **[certpeek](https://github.com/celaldrg/certpeek)**: Check TLS certificates from the command line: expiry, hostname, trust chain and TLS version for one host or hundreds, with JSON output and exit codes for cron/CI. Single Go binary, stdlib only. | Go |
